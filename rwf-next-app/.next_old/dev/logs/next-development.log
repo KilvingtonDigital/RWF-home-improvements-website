@@ -1,0 +1,13 @@
+[00:00:00.879] Server  LOG     ✓ Ready in 626ms
+[00:00:04.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.190] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/Farm_20and_20Ranch_20Fencing.jpg" "received" null
+[00:00:04.533] Browser WARN    Image with src "/images/Men_20with_20Calculator.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.533] Browser WARN    Image with src "/images/Reviewing_20document.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.533] Browser WARN    Image with src "/images/Dollar_20Bill_20in_20Jar.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.533] Browser WARN    Image with src "/images/Calculator.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:11:06.719] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/Farm_20and_20Ranch_20Fencing.jpg" "received" null
+[02:11:06.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:11:07.713] Browser WARN    Image with src "/images/Dollar_20Bill_20in_20Jar.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:11:07.713] Browser WARN    Image with src "/images/Calculator.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:11:07.713] Browser WARN    Image with src "/images/Men_20with_20Calculator.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:11:07.713] Browser WARN    Image with src "/images/Reviewing_20document.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

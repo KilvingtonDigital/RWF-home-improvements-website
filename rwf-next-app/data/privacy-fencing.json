@@ -1,0 +1,69 @@
+{
+  "title": "Privacy Fencing Fayetteville, NC & Sanford | Wood & Vinyl | RWF",
+  "description": "Expert privacy fencing installation in Fayetteville and Sanford. Wood, vinyl, and composite privacy fences to secure your backyard.",
+  "keywords": "Privacy Fencing, Wood Privacy Fence, Vinyl Privacy Fence, Composite Fence, Fayetteville Fencing, Sanford Fencing, Lillington Fencing, Fence Installation",
+  "ogImage": "/images/composite-privacy-fencing.jpg",
+  "heroImage": "/images/composite-privacy-fencing.jpg",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Privacy Fencing Solutions in Fayetteville & Sanford"
+    }
+  ],
+  "params": {
+    "slug": "privacy-fencing"
+  },
+  "serviceOptions": [
+    {
+      "title": "Wood Privacy Fences",
+      "description": "Classic and timeless, wood offers natural beauty with customizable heights and styles, such as board-on-board or shadowbox designs.",
+      "image": "/images/dog-eared-wooden-fence-installation-fayetteville.jpg",
+      "link": "/fayetteville-wood-fencing"
+    },
+    {
+      "title": "Vinyl Privacy Fencing",
+      "description": "A durable, low-maintenance alternative to wood, available in a range of colors and textures. Perfect for a modern look.",
+      "image": "/images/vinyl-privacy-fence-installation-fayetteville.jpg",
+      "link": "/vinyl-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Composite Privacy Fencing",
+      "description": "Combines the strength of wood with the durability of synthetic materials, perfect for modern designs and long-lasting performance.",
+      "image": "/images/composite-privacy-fencing.jpg",
+      "link": "/contact-us"
+    }
+  ],
+  "benefitsImage": "/images/reliable-fence-installation-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Enhanced Privacy and Security",
+      "description": "Create a peaceful retreat and protect your home or business with fencing designed to block out prying eyes and reduce noise."
+    },
+    {
+      "title": "Aesthetic Appeal",
+      "description": "Choose from a variety of styles, materials, and finishes that blend seamlessly with your property’s architecture."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-designed privacy fence not only offers protection but also boosts curb appeal and market value."
+    },
+    {
+      "title": "Durable and Low-Maintenance",
+      "description": "Our fences are built with high-quality materials to ensure longevity with minimal upkeep, resisting weathering and pests."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How high can my privacy fence be?",
+      "answer": "Typically, residential privacy fences are 6 feet tall, but zoning laws varies. We can help check regulations for your specific area in Fayetteville or Sanford."
+    },
+    {
+      "question": "Which material offers the best privacy?",
+      "answer": "Vinyl and board-on-board wood fencing offer complete privacy with no gaps between pickets."
+    },
+    {
+      "question": "Does a privacy fence reduce noise?",
+      "answer": "Yes, a solid privacy fence can help dampen street noise and create a quieter outdoor living space."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.card {
+    background: white;
+    flex: 1 1 300px;
+    max-width: 400px;
+    border: 1px solid var(--bg-secondary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.imageWrapper {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .imageWrapper img {
+    transform: scale(1.05);
+}
+
+.content {
+    padding: 2rem;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.desc {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.btnFullWidth {
+    width: 100%;
+}
+
+.authColorOverride {
+    color: var(--text-primary) !important;
+    border-color: var(--text-primary) !important;
+}

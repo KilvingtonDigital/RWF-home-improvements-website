@@ -1,0 +1,63 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 5rem 0;
+}
+
+.info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contactDetails {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.form {
+    flex: 1;
+    min-width: 300px;
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.input,
+.select,
+.textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    outline: 2px solid var(--primary-color);
+    border-color: transparent;
+}
+
+.submitBtn {
+    width: 100%;
+}

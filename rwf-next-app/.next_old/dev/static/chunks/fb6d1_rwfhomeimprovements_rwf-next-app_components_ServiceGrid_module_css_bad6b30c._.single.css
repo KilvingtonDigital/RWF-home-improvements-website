@@ -1,0 +1,64 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/ServiceGrid.module.css [app-client] (css) */
+.ServiceGrid-module__KjFa3a__grid {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.ServiceGrid-module__KjFa3a__card {
+  border: 1px solid var(--bg-secondary);
+  background: #fff;
+  flex-direction: column;
+  flex: 300px;
+  max-width: 400px;
+  transition: transform .3s, box-shadow .3s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 6px #0000000d;
+}
+
+.ServiceGrid-module__KjFa3a__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px #0000001a;
+}
+
+.ServiceGrid-module__KjFa3a__imageWrapper {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ServiceGrid-module__KjFa3a__imageWrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+}
+
+.ServiceGrid-module__KjFa3a__card:hover .ServiceGrid-module__KjFa3a__imageWrapper img {
+  transform: scale(1.05);
+}
+
+.ServiceGrid-module__KjFa3a__content {
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+}
+
+.ServiceGrid-module__KjFa3a__title {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.ServiceGrid-module__KjFa3a__desc {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: .95rem;
+}
+
+/*# sourceMappingURL=fb6d1_rwfhomeimprovements_rwf-next-app_components_ServiceGrid_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,197 @@
+.pageHeader {
+    padding: 4rem 0 2rem;
+    border-bottom: 1px solid var(--bg-secondary);
+    margin-bottom: 3rem;
+}
+
+.pageHeader h1 {
+    font-size: 3rem;
+    color: var(--text-primary);
+    max-width: 900px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 4rem auto 4rem;
+    /* Increased vertical spacing */
+    color: var(--text-secondary);
+}
+
+/* Base Paragraph Style */
+.content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+/* Lead Paragraph - High Impact */
+.content>p:first-of-type {
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--text-primary);
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1.5rem;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    margin: 2rem 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.content h2,
+.content h3 {
+    margin-top: 2rem;
+    color: var(--primary-color);
+}
+
+/* Product Table Layout for Options */
+.content table {
+    width: 100%;
+    border-collapse: separate;
+    /* Allows border radius */
+    border-spacing: 0 1.5rem;
+    /* Gap between rows/cards */
+    margin: 3rem 0;
+}
+
+.content thead {
+    display: none;
+    /* Hide table headers for cleaner look */
+}
+
+.content tr {
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.content tr:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.content td {
+    padding: 2rem;
+    vertical-align: middle;
+}
+
+.content td:first-child {
+    width: 35%;
+    /* Image Column */
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-right: 1rem;
+}
+
+.content td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.content table img {
+    float: none !important;
+    /* Override magazine float */
+    margin: 0 !important;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.content table h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding-top: 0;
+    /* Reset clear padding */
+}
+
+/* Mobile Table Reset */
+@media (max-width: 768px) {
+
+    .content table,
+    .content tbody,
+    .content tr,
+    .content td {
+        display: block;
+        width: 100% !important;
+    }
+
+    .content border-spacing {
+        border-spacing: 0;
+    }
+
+    .content tr {
+        margin-bottom: 2rem;
+    }
+
+    .content td:first-child {
+        padding: 0;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .content table img {
+        height: 200px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .content td:last-child {
+        border-radius: 0 0 12px 12px;
+        padding: 1.5rem;
+    }
+}
+
+/* Desktop: Magazine Layout to reduce scrolling */
+@media (min-width: 769px) {
+    .content img {
+        float: right;
+        max-width: 400px;
+        margin: 0.5rem 0 1.5rem 2.5rem;
+    }
+
+    .content h2,
+    .content h3 {
+        clear: both;
+        padding-top: 1rem;
+    }
+}
+
+/* Separator Adjustment */
+.content hr {
+    clear: both;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 3rem 0;
+}
+
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sectionCenter {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    color: var(--text-primary);
+    text-align: left;
+    padding-left: 1.5rem;
+    border-left: 4px solid #D4AF37;
+    line-height: 1.2;
+}

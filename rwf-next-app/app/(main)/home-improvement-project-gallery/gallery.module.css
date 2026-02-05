@@ -1,0 +1,25 @@
+.container {
+    padding: 5rem 1rem;
+}
+
+.galleryGrid {
+    columns: 3 300px;
+    gap: 1.5rem;
+}
+
+.galleryItem {
+    margin-bottom: 1.5rem;
+    break-inside: avoid;
+}
+
+.imageWrapper {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}

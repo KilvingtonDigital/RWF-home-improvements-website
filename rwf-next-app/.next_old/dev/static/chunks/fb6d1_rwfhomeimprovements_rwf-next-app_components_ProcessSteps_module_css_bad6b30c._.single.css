@@ -1,0 +1,96 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/ProcessSteps.module.css [app-client] (css) */
+.ProcessSteps-module___lRrTG__section {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 5rem 1rem;
+}
+
+.ProcessSteps-module___lRrTG__title {
+  color: #333;
+  margin-bottom: 3rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.ProcessSteps-module___lRrTG__stepsGrid {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .ProcessSteps-module___lRrTG__stepsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .ProcessSteps-module___lRrTG__stepsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.ProcessSteps-module___lRrTG__stepCard {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+  box-shadow: 0 4px 6px #0000000d;
+}
+
+.ProcessSteps-module___lRrTG__stepCard:hover {
+  border-color: var(--primary-color, #0056b3);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px #0000001a;
+}
+
+.ProcessSteps-module___lRrTG__numberBadge {
+  background-color: var(--primary-color, #0056b3);
+  color: #fff;
+  border: 4px solid #f8f9fa;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ProcessSteps-module___lRrTG__imageContainer {
+  border-radius: 8px;
+  width: 100%;
+  height: 180px;
+  margin: 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.ProcessSteps-module___lRrTG__stepTitle {
+  color: #222;
+  margin: 1rem 0 .5rem;
+  font-size: 1.25rem;
+}
+
+.ProcessSteps-module___lRrTG__stepText {
+  color: #555;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=fb6d1_rwfhomeimprovements_rwf-next-app_components_ProcessSteps_module_css_bad6b30c._.single.css.map*/

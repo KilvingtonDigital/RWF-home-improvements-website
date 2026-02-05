@@ -1,0 +1,320 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--bg-primary);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: none;
+    /* Fluid Layout */
+    padding: 0 1rem;
+    /* Reduced padding for mobile breathing room */
+}
+
+/* ... existing logo styles ... */
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 5px 0;
+    margin-right: auto;
+    /* Pushes everything else right */
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    max-height: 80px;
+}
+
+/* CTA - Always Visible */
+.cta {
+    display: block;
+    margin-right: 1rem;
+    /* Space between CTA and Toggle */
+}
+
+.cta .btn {
+    padding: 10px 16px;
+    /* Compact mobile size */
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+/* Mobile Menu Toggle */
+.toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    /* Larger hamburger */
+    color: var(--text-primary);
+    cursor: pointer;
+    z-index: 1002;
+    padding: 0;
+    margin-left: 0.5rem;
+}
+
+.navArrow {
+    font-size: 0.7em;
+    opacity: 0.6;
+}
+
+/* Mobile Links Overlay */
+.links {
+    display: none;
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    /* More breathing room */
+    overflow-y: auto;
+    z-index: 1001;
+}
+
+.links.open {
+    display: flex;
+}
+
+.navItem {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #f0f0f0;
+    height: auto;
+}
+
+.linkWrapper {
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.25rem 0;
+    /* Larger touch targets */
+    margin: 0;
+    font-size: 1.1rem;
+    /* Larger text */
+    height: auto;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    /* Use Outfit for Nav */
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    background-color: #fff;
+    /* Clean white */
+    display: none;
+    flex-direction: column;
+    /* Force vertical stacking */
+    padding: 0.5rem 0 0.5rem 1rem;
+    /* Indent content */
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    min-width: unset;
+    border-left: 2px solid #eee;
+    /* Visual guide line */
+    margin-left: 1rem;
+    /* Indent the whole block */
+    width: auto;
+    /* Fit to container */
+}
+
+.navItem.dropdownOpen .dropdown {
+    display: flex;
+}
+
+.dropdownLink {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    color: var(--text-primary);
+    /* High contrast */
+    font-weight: 600;
+    /* Easier to read */
+    font-family: var(--font-body);
+    /* Readable body font */
+    white-space: normal;
+    /* Ensure text wraps */
+    word-wrap: break-word;
+    /* Prevent overflow */
+    line-height: 1.4;
+    display: block;
+    /* Ensure it takes width */
+}
+
+.dropdownLink:hover {
+    color: var(--primary-color);
+}
+
+/* Mobile CTA */
+.mobileCta {
+    display: block;
+    margin-top: auto;
+    width: 100%;
+    padding: 2rem 0;
+    /* Remove side padding for cleaner look */
+    background-color: #fff;
+    position: sticky;
+    bottom: 0;
+}
+
+.mobileCta a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--accent-color);
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 800;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transform: translateY(0);
+    transition: all 0.2s ease;
+}
+
+.mobileCta a:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1100px) {
+    .navContainer {
+        padding: 0 2rem;
+        /* Restore desktop padding */
+    }
+
+    .cta {
+        margin-right: 0;
+    }
+
+    .cta .btn {
+        padding: 14px 32px;
+        /* Restore desktop size */
+        font-size: 1rem;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        padding: 0;
+        background-color: transparent;
+        overflow-y: visible;
+        height: 100%;
+    }
+
+    .navItem {
+        width: auto;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: none;
+        height: 100%;
+        position: relative;
+        /* Anchor for absolute dropdown */
+    }
+
+    .linkWrapper {
+        width: auto;
+        height: 100%;
+    }
+
+    .link {
+        width: auto;
+        padding: 0;
+        margin: 0 1.2rem;
+        /* Increased spacing */
+        font-size: 0.9rem;
+        height: 100%;
+        font-weight: 600;
+    }
+
+    /* Desktop Dropdown Hover Logic */
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        min-width: 260px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-top: 2px solid var(--primary-color);
+        display: flex;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        padding: 0.5rem 0;
+        /* Reset mobile overrides */
+        border-left: none;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .navItem:hover .dropdown {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        display: flex;
+    }
+
+    /* Disable click toggling on desktop since use hover */
+    .navItem.dropdownOpen .dropdown {
+        display: flex;
+    }
+
+    .dropdownLink {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+        color: var(--text-primary);
+        /* High contrast on desktop too */
+        font-weight: 500;
+        border-left: 2px solid transparent;
+        transition: all 0.2s;
+    }
+
+    .dropdownLink:hover {
+        background-color: #f8f9fa;
+        color: var(--primary-color);
+        border-left-color: var(--primary-color);
+        padding-left: 1.8rem;
+    }
+
+    .mobileCta {
+        display: none;
+    }
+
+    .cta {
+        display: block;
+    }
+}

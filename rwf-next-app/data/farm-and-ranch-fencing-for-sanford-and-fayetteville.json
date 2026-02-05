@@ -1,0 +1,75 @@
+{
+  "title": "Farm and Ranch Fencing for Sanford and Fayetteville | RWF Home Improvements",
+  "description": "Secure your livestock and define your property with durable farm and ranch fencing from RWF Home Improvements. Split rail, woven wire, and custom gates in Fayetteville, Sanford, and Lillington.",
+  "keywords": "Farm Fencing, Ranch Fencing, Livestock Fencing, Split Rail Fence, Woven Wire Fence, Horse Fencing, Fayetteville Fencing, Sanford Fencing",
+  "ogImage": "/images/farm-ranch-fence-hero-sunlit.png",
+  "heroImage": "/images/farm-ranch-fence-hero-sunlit.png",
+  "params": {
+    "slug": "farm-and-ranch-fencing-for-sanford-and-fayetteville"
+  },
+  "serviceOptions": [
+    {
+      "title": "Split Rail Fencing",
+      "description": "A rustic, open design that blends seamlessly with natural landscapes while effective for marking boundaries and containing horses or cattle.",
+      "image": "/images/split-rail-fence-fayetteville.jpg",
+      "link": "/fayetteville-wood-fencing"
+    },
+    {
+      "title": "Woven Wire Fencing",
+      "description": "Ideal for securing smaller livestock and keeping predators out. High-tensile wire options available for added strength.",
+      "image": "/images/split-rail-wood-fence.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Vinyl Ranch Fencing",
+      "description": "A low-maintenance, durable option available in white and other colors, perfect for horse paddocks and decorative enclosures.",
+      "image": "/images/vinyl-ranch-fence-fayetteville.jpg",
+      "link": "/vinyl-fencing-for-sanford-and-fayetteville",
+      "imageStyle": {
+        "objectPosition": "top"
+      }
+    },
+    {
+      "title": "Custom Gates",
+      "description": "Ensure easy access with durable, custom gates designed for tractors, vehicles, and livestock movement.",
+      "image": "/images/custom-farm-gate-fayetteville.jpg",
+      "link": "/contact-us",
+      "imageStyle": {
+        "transform": "scale(1.35)"
+      }
+    }
+  ],
+  "benefitsImage": "/images/reliable-fence-installation-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Versatile Solutions",
+      "description": "Whether you need to secure large livestock, small animals, or crop areas, our options can be customized to meet your unique requirements."
+    },
+    {
+      "title": "Durable Materials",
+      "description": "From treated wood and vinyl to woven wire and steel, our materials are chosen to withstand the elements and farm life."
+    },
+    {
+      "title": "Property Value",
+      "description": "Well-built farm fencing enhances the appearance and value of your property while serving a functional purpose."
+    },
+    {
+      "title": "Safety and Security",
+      "description": "Protect your animals and equipment with sturdy fences designed to deter trespassers and keep livestock contained."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the best fencing for horses?",
+      "answer": "Split rail or vinyl ranch fencing are popular choices for horses as they are visible and safe. Woven wire with a top sight board is also effective."
+    },
+    {
+      "question": "Do you install electronic gates for farms?",
+      "answer": "Yes, we can install custom gates with automation options to make accessing your property easier."
+    },
+    {
+      "question": "How long does farm fencing last?",
+      "answer": "With proper installation and materials like pressure-treated wood or vinyl, your farm fence can last for decades."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/ServiceAreas.module.css [app-client] (css) */
+.ServiceAreas-module__pNgroa__section {
+  background-color: var(--bg-primary);
+  padding: 5rem 0;
+}
+
+.ServiceAreas-module__pNgroa__heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ServiceAreas-module__pNgroa__contentWrapper {
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 4rem;
+  display: grid;
+}
+
+.ServiceAreas-module__pNgroa__textContent {
+  text-align: left;
+}
+
+.ServiceAreas-module__pNgroa__description {
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.ServiceAreas-module__pNgroa__listsContainer {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  display: grid;
+}
+
+.ServiceAreas-module__pNgroa__columnHeading {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--accent-color);
+  margin-bottom: 1rem;
+  padding-bottom: .5rem;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+.ServiceAreas-module__pNgroa__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ServiceAreas-module__pNgroa__listItem {
+  margin-bottom: .75rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ServiceAreas-module__pNgroa__link {
+  color: var(--text-primary);
+  align-items: center;
+  gap: .5rem;
+  text-decoration: none;
+  transition: color .2s;
+  display: flex;
+}
+
+.ServiceAreas-module__pNgroa__link:hover {
+  color: var(--primary-color);
+}
+
+.ServiceAreas-module__pNgroa__marker {
+  color: var(--accent-color);
+  flex-shrink: 0;
+}
+
+.ServiceAreas-module__pNgroa__mapWrapper {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #0000001a;
+}
+
+.ServiceAreas-module__pNgroa__mapFrame {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+@media (max-width: 900px) {
+  .ServiceAreas-module__pNgroa__contentWrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .ServiceAreas-module__pNgroa__mapWrapper {
+    order: -1;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ServiceAreas-module__pNgroa__listsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=fb6d1_rwfhomeimprovements_rwf-next-app_components_ServiceAreas_module_css_bad6b30c._.single.css.map*/

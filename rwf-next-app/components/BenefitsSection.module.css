@@ -1,0 +1,133 @@
+.benefitsSection {
+    padding: 4rem 0;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+}
+
+.header {
+    margin-bottom: 3.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+    border-left: 4px solid #D4AF37;
+}
+
+.title {
+    font-size: 2.75rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.intro {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    max-width: 90%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.iconWrapper {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, var(--primary-color), #2980b9);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 10px 20px rgba(41, 128, 185, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.item:hover .iconWrapper {
+    transform: translateY(-3px) rotate(-5deg);
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+}
+
+.itemContent {
+    flex: 1;
+}
+
+.itemTitle {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.itemText {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.imageWrapper {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border: 8px solid white;
+}
+
+.image {
+    object-fit: cover;
+    transition: transform 0.7s ease;
+}
+
+.section:hover .image {
+    transform: scale(1.05);
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 6rem;
+    }
+
+    .imageWrapper {
+        position: sticky;
+        top: 6rem;
+        height: 600px;
+    }
+}

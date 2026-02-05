@@ -1,0 +1,75 @@
+{
+  "title": "Aluminum Fencing Fayetteville, NC & Sanford | Ornamental | RWF",
+  "description": "Elegant aluminum fencing in Fayetteville and Sanford, NC. Rust-free ornamental iron alternatives. Perfect for pools and property lines.",
+  "keywords": "Aluminum fencing, Ornamental Fence, Metal Fencing, Pool Fencing, Privacy Inserts, Fayetteville Fencing, Sanford Fencing, Lillington Fencing",
+  "ogImage": "/images/ornamental-aluminum-fence.jpg",
+  "heroImage": "/images/ornamental-aluminum-fence.jpg",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Aluminum Fence Installation in Fayetteville & Sanford"
+    }
+  ],
+  "params": {
+    "slug": "aluminum-fencing-for-sanford-and-fayetteville"
+  },
+  "serviceOptions": [
+    {
+      "title": "Classical Ornamental",
+      "description": "Perfect for adding a touch of sophistication with clean lines and timeless designs. The look of wrought iron without the rust.",
+      "image": "/images/ornamental-aluminum-fence.jpg",
+      "link": "/aluminum-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Pool Fencing",
+      "description": "Keep your pool area safe and compliant with local regulations while maintaining high visibility and a stylish look.",
+      "image": "/images/aluminum-pool-fence.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Privacy Inserts",
+      "description": "Add decorative privacy panels to your aluminum fence for added seclusion without compromising on elegance.",
+      "image": "/images/aluminum-fence-privacy-inserts.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Custom Gates",
+      "description": "Enhance access points with custom aluminum gates that provide security and curb appeal.",
+      "image": "/images/aluminum-fence-gates.jpg",
+      "link": "/door-installation"
+    }
+  ],
+  "benefitsImage": "/images/reliable-fence-installation-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Rust-Free Durability",
+      "description": "Unlike iron or steel, aluminum naturally resists rust and corrosion, making it ideal for our humid North Carolina climate."
+    },
+    {
+      "title": "Low-Maintenance",
+      "description": "Enjoy the beauty of metal fencing without the hassle of painting or staining. A simple wash is all it needs."
+    },
+    {
+      "title": "Security & Strength",
+      "description": "Strong enough to secure your property while being lightweight. Perfect for keeping pets and children safe."
+    },
+    {
+      "title": "Eco-Friendly",
+      "description": "Often made from recycled materials, aluminum fencing is an environmentally conscious choice for your home."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does aluminum fencing rust?",
+      "answer": "No, aluminum is a non-ferrous metal, meaning it does not rust. This makes it superior to traditional wrought iron for our region."
+    },
+    {
+      "question": "Is aluminum fencing strong enough for dogs?",
+      "answer": "Yes, aluminum fences are very sturdy and the vertical pickets are spaced to prevent most pets from squeezing through."
+    },
+    {
+      "question": "Can I install aluminum fencing on uneven ground?",
+      "answer": "Yes, aluminum fence panels are rackable, meaning they can adjust to follow the slope of your land without leaving large gaps."
+    }
+  ]
+}

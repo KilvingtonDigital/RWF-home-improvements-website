@@ -1,0 +1,89 @@
+.ctaSection {
+    background-color: var(--bg-secondary);
+    /* Match the gray/neutral background from image */
+    color: var(--text-primary);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.ctaImageCol {
+    flex: 1;
+    min-width: 400px;
+    max-width: 50%;
+    position: relative;
+    aspect-ratio: 1;
+    /* Square or landscape? Image looks landscape-ish */
+    height: 100%;
+    min-height: 400px;
+    overflow: hidden;
+    /* Prevent zoom overflow */
+}
+
+.ctaOwnerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 85%;
+    /* Shifting focus lower pushes face up */
+    transform: scale(1.4);
+    transform-origin: center center;
+}
+
+.ctaContentCol {
+    flex: 1;
+    padding: 4rem;
+    text-align: left;
+}
+
+.ctaContentCol h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    color: #000;
+}
+
+.ctaContentCol p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.ctaButton {
+    background-color: #000;
+    /* Black button as per image */
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ctaButton:hover {
+    background-color: #333;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+    .ctaSection {
+        flex-direction: column;
+    }
+
+    .ctaImageCol {
+        max-width: 100%;
+        width: 100%;
+        min-height: 300px;
+        aspect-ratio: 16/9;
+    }
+
+    .ctaContentCol {
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+}

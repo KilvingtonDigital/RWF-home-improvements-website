@@ -1,0 +1,77 @@
+{
+  "title": "Home Improvement Services in Fayetteville, NC | RWF Home Improvement",
+  "description": "RWF Home Improvements proudly serves Fayetteville, NC, with expert fencing, decking, window, and door installations. Enhance your property’s style and security with over 35 years of trusted craftsmanship. Contact us for a free quote today!",
+  "keywords": "fencing fayetteville nc, deck builder fayetteville, window replacement fayetteville, door installation fayetteville, rwf home improvements",
+  "ogImage": "/images/fayetteville-nc-hero.png",
+  "heroImage": "/images/fayetteville-nc-hero.png",
+  "serviceOptions": [
+    {
+      "title": "Wood Fencing",
+      "description": "Classic, customizable, and perfect for privacy. Our shadow box and privacy fences are built to last.",
+      "image": "/images/wood-fence-fayetteville.jpg",
+      "link": "/fayetteville-wood-fencing"
+    },
+    {
+      "title": "Vinyl Fencing",
+      "description": "Low-maintenance and long-lasting, ideal for Fayetteville’s weather. A smart investment for any home.",
+      "image": "/images/vinyl-fence-fayetteville.png",
+      "link": "/vinyl-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Aluminum Fencing",
+      "description": "Elegant and durable, adding style and security to any property without sacrificing the view.",
+      "image": "/images/aluminum-fence-fayetteville.jpg",
+      "link": "/aluminum-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Custom Decks",
+      "description": "Tailored to fit your lifestyle and home aesthetic. Create the perfect outdoor oasis for family gatherings.",
+      "image": "/images/custom-deck-fayetteville.jpg",
+      "link": "/deck-installation"
+    },
+    {
+      "title": "Window Replacement",
+      "description": "Energy-efficient options that improve insulation and curb appeal. Custom designs to fit your home's character.",
+      "image": "/images/window-replacement-fayetteville.jpg",
+      "link": "/window-installation"
+    },
+    {
+      "title": "Door Installation",
+      "description": "Boost security and style with fiberglass, wood, and steel options for both exterior and interior entries.",
+      "image": "/images/door-installation-fayetteville.jpg",
+      "link": "/door-installation"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Over 35 Years of Experience",
+      "description": "Trusted by Fayetteville residents for decades, we bring seasoned expertise to every job."
+    },
+    {
+      "title": "Locally Focused",
+      "description": "We understand the unique needs of Fayetteville homes and the local climate."
+    },
+    {
+      "title": "100% Satisfaction Guarantee",
+      "description": "We’re not satisfied until you are. Our commitment to quality is unwavering."
+    },
+    {
+      "title": "Licensed and Insured",
+      "description": "Providing peace of mind and professionalism for every project we undertake."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long will my fencing installation take?",
+      "answer": "Project timelines vary based on size and materials, but our Fayetteville team will work with you to ensure timely, efficient service. We strive to minimize disruption to your daily routine."
+    },
+    {
+      "question": "What types of windows are best for Fayetteville’s climate?",
+      "answer": "Energy-efficient windows are ideal for Fayetteville’s weather, reducing heat in summer and insulating during cooler months. We offer a variety of options specifically suited for this region."
+    },
+    {
+      "question": "Do you offer warranties on your products and services?",
+      "answer": "Yes, all of our installations and products come with warranties for your peace of mind. Please ask during your consultation for specifics on your chosen service."
+    }
+  ]
+}

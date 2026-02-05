@@ -1,0 +1,720 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/app/[...slug]/page.module.css [app-client] (css) */
+.page-module__0IdpMG__pageHeader {
+  border-bottom: 1px solid var(--bg-secondary);
+  margin-bottom: 3rem;
+  padding: 4rem 0 2rem;
+}
+
+.page-module__0IdpMG__pageHeader h1 {
+  color: var(--text-primary);
+  max-width: 900px;
+  font-size: 3rem;
+}
+
+.page-module__0IdpMG__content {
+  max-width: 800px;
+  color: var(--text-secondary);
+  margin: 5rem auto 6rem;
+}
+
+.page-module__0IdpMG__content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.page-module__0IdpMG__content > p:first-of-type {
+  color: var(--text-primary);
+  border-left: 4px solid var(--accent-color);
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  padding-left: 1.5rem;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.page-module__0IdpMG__content img {
+  object-fit: cover;
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  margin: 2rem 0;
+  box-shadow: 0 8px 16px #0000001f;
+}
+
+.page-module__0IdpMG__content h2, .page-module__0IdpMG__content h3 {
+  color: var(--primary-color);
+  margin-top: 2rem;
+}
+
+.page-module__0IdpMG__content table {
+  border-collapse: separate;
+  border-spacing: 0 1.5rem;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.page-module__0IdpMG__content thead {
+  display: none;
+}
+
+.page-module__0IdpMG__content tr {
+  background-color: #fff;
+  border-radius: 12px;
+  transition: transform .2s;
+  box-shadow: 0 4px 20px #0000000f;
+}
+
+.page-module__0IdpMG__content tr:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px #0000001a;
+}
+
+.page-module__0IdpMG__content td {
+  vertical-align: middle;
+  padding: 2rem;
+}
+
+.page-module__0IdpMG__content td:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 35%;
+  padding-right: 1rem;
+}
+
+.page-module__0IdpMG__content td:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.page-module__0IdpMG__content table img {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 100%;
+  height: 220px;
+  display: block;
+  float: none !important;
+  margin: 0 !important;
+}
+
+.page-module__0IdpMG__content table h3 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .page-module__0IdpMG__content table, .page-module__0IdpMG__content tbody, .page-module__0IdpMG__content tr, .page-module__0IdpMG__content td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .page-module__0IdpMG__content border-spacing {
+    border-spacing: 0;
+  }
+
+  .page-module__0IdpMG__content tr {
+    margin-bottom: 2rem;
+  }
+
+  .page-module__0IdpMG__content td:first-child {
+    border-radius: 12px 12px 0 0;
+    padding: 0;
+  }
+
+  .page-module__0IdpMG__content table img {
+    border-radius: 12px 12px 0 0;
+    height: 200px;
+  }
+
+  .page-module__0IdpMG__content td:last-child {
+    border-radius: 0 0 12px 12px;
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .page-module__0IdpMG__content img {
+    float: right;
+    max-width: 400px;
+    margin: .5rem 0 1.5rem 2.5rem;
+  }
+
+  .page-module__0IdpMG__content h2, .page-module__0IdpMG__content h3 {
+    clear: both;
+    padding-top: 1rem;
+  }
+}
+
+.page-module__0IdpMG__content hr {
+  clear: both;
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 3rem 0;
+}
+
+.page-module__0IdpMG__content:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/HeroSection.module.css [app-client] (css) */
+.HeroSection-module__F3QDOG__hero {
+  background-position: center;
+  background-size: cover;
+  background-image: var(--hero-bg);
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+  min-height: 600px;
+  display: flex;
+  position: relative;
+}
+
+.HeroSection-module__F3QDOG__overlay {
+  z-index: 1;
+  background: linear-gradient(90deg, #000c 0%, #0006 60%, #0000001a 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.HeroSection-module__F3QDOG__content {
+  z-index: 2;
+  max-width: 650px;
+  position: relative;
+}
+
+.HeroSection-module__F3QDOG__title {
+  text-shadow: 0 2px 4px #0000004d;
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .HeroSection-module__F3QDOG__title {
+    word-wrap: break-word;
+    font-size: 2.2rem;
+  }
+
+  .HeroSection-module__F3QDOG__hero {
+    min-height: 500px;
+  }
+}
+
+.HeroSection-module__F3QDOG__ctaGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  display: flex;
+}
+
+.HeroSection-module__F3QDOG__serviceQuickLinks {
+  color: #ffffffe6;
+  flex-direction: column;
+  gap: .5rem;
+  font-size: .9rem;
+  display: flex;
+}
+
+.HeroSection-module__F3QDOG__quickLinks {
+  gap: 1.5rem;
+  display: flex;
+}
+
+.HeroSection-module__F3QDOG__quickLink {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: .85rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  border-bottom: 2px solid #ffffff4d;
+  padding-bottom: 2px;
+  transition: all .2s;
+}
+
+.HeroSection-module__F3QDOG__quickLink:hover {
+  border-bottom-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/ServiceAreas.module.css [app-client] (css) */
+.ServiceAreas-module__pNgroa__section {
+  background-color: var(--bg-primary);
+  padding: 5rem 0;
+}
+
+.ServiceAreas-module__pNgroa__heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ServiceAreas-module__pNgroa__contentWrapper {
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 4rem;
+  display: grid;
+}
+
+.ServiceAreas-module__pNgroa__textContent {
+  text-align: left;
+}
+
+.ServiceAreas-module__pNgroa__description {
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.ServiceAreas-module__pNgroa__listsContainer {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  display: grid;
+}
+
+.ServiceAreas-module__pNgroa__columnHeading {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--accent-color);
+  margin-bottom: 1rem;
+  padding-bottom: .5rem;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+.ServiceAreas-module__pNgroa__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ServiceAreas-module__pNgroa__listItem {
+  margin-bottom: .75rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ServiceAreas-module__pNgroa__link {
+  color: var(--text-primary);
+  align-items: center;
+  gap: .5rem;
+  text-decoration: none;
+  transition: color .2s;
+  display: flex;
+}
+
+.ServiceAreas-module__pNgroa__link:hover {
+  color: var(--primary-color);
+}
+
+.ServiceAreas-module__pNgroa__marker {
+  color: var(--accent-color);
+  flex-shrink: 0;
+}
+
+.ServiceAreas-module__pNgroa__mapWrapper {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #0000001a;
+}
+
+.ServiceAreas-module__pNgroa__mapFrame {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+@media (max-width: 900px) {
+  .ServiceAreas-module__pNgroa__contentWrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .ServiceAreas-module__pNgroa__mapWrapper {
+    order: -1;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ServiceAreas-module__pNgroa__listsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/CTA.module.css [app-client] (css) */
+.CTA-module__EhaNtW__ctaSection {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-radius: 8px;
+  align-items: center;
+  gap: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.CTA-module__EhaNtW__ctaImageCol {
+  aspect-ratio: 1;
+  flex: 1;
+  min-width: 400px;
+  max-width: 50%;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.CTA-module__EhaNtW__ctaOwnerImage {
+  object-fit: cover;
+  object-position: 50% 85%;
+  transform-origin: center;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.4);
+}
+
+.CTA-module__EhaNtW__ctaContentCol {
+  text-align: left;
+  flex: 1;
+  padding: 4rem;
+}
+
+.CTA-module__EhaNtW__ctaContentCol h2 {
+  color: #000;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.CTA-module__EhaNtW__ctaContentCol p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.CTA-module__EhaNtW__ctaButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.CTA-module__EhaNtW__ctaButton:hover {
+  color: #fff;
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .CTA-module__EhaNtW__ctaSection {
+    flex-direction: column;
+  }
+
+  .CTA-module__EhaNtW__ctaImageCol {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+  }
+
+  .CTA-module__EhaNtW__ctaContentCol {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+}
+
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/SetsApart.module.css [app-client] (css) */
+.SetsApart-module__uCtGjW__section {
+  background-color: var(--bg-secondary);
+  padding: 5rem 2rem;
+  overflow: hidden;
+}
+
+.SetsApart-module__uCtGjW__header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.SetsApart-module__uCtGjW__starIcon {
+  width: 40px;
+  height: 40px;
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.SetsApart-module__uCtGjW__title {
+  color: var(--text-primary);
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: var(--font-heading);
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+}
+
+.SetsApart-module__uCtGjW__grid {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+}
+
+.SetsApart-module__uCtGjW__card {
+  isolation: isolate;
+  cursor: default;
+  border-radius: 24px;
+  flex: 280px;
+  max-width: 360px;
+  height: 350px;
+  transition: transform .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.SetsApart-module__uCtGjW__card:hover {
+  transform: translateY(-5px);
+}
+
+.SetsApart-module__uCtGjW__cardImage {
+  transition: transform .5s;
+}
+
+.SetsApart-module__uCtGjW__card:hover .SetsApart-module__uCtGjW__cardImage {
+  transform: scale(1.05);
+}
+
+.SetsApart-module__uCtGjW__overlay {
+  z-index: 1;
+  background: linear-gradient(to top, #000000b3 0%, #0000004d 50%, #0000001a 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.SetsApart-module__uCtGjW__content {
+  z-index: 2;
+  text-align: left;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.SetsApart-module__uCtGjW__cardTitle {
+  text-shadow: 0 2px 4px #00000080;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.SetsApart-module__uCtGjW__cardText {
+  opacity: .95;
+  text-shadow: 0 1px 2px #00000080;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .SetsApart-module__uCtGjW__title {
+    font-size: 2rem;
+  }
+
+  .SetsApart-module__uCtGjW__grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .SetsApart-module__uCtGjW__card {
+    height: 300px;
+  }
+}
+
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/ServiceGrid.module.css [app-client] (css) */
+.ServiceGrid-module__KjFa3a__grid {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.ServiceGrid-module__KjFa3a__card {
+  border: 1px solid var(--bg-secondary);
+  background: #fff;
+  flex-direction: column;
+  flex: 300px;
+  max-width: 400px;
+  transition: transform .3s, box-shadow .3s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 6px #0000000d;
+}
+
+.ServiceGrid-module__KjFa3a__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px #0000001a;
+}
+
+.ServiceGrid-module__KjFa3a__imageWrapper {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ServiceGrid-module__KjFa3a__imageWrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+}
+
+.ServiceGrid-module__KjFa3a__card:hover .ServiceGrid-module__KjFa3a__imageWrapper img {
+  transform: scale(1.05);
+}
+
+.ServiceGrid-module__KjFa3a__content {
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+}
+
+.ServiceGrid-module__KjFa3a__title {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.ServiceGrid-module__KjFa3a__desc {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: .95rem;
+}
+
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/ProcessSteps.module.css [app-client] (css) */
+.ProcessSteps-module___lRrTG__section {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 5rem 1rem;
+}
+
+.ProcessSteps-module___lRrTG__title {
+  color: #333;
+  margin-bottom: 3rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.ProcessSteps-module___lRrTG__stepsGrid {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .ProcessSteps-module___lRrTG__stepsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .ProcessSteps-module___lRrTG__stepsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.ProcessSteps-module___lRrTG__stepCard {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+  box-shadow: 0 4px 6px #0000000d;
+}
+
+.ProcessSteps-module___lRrTG__stepCard:hover {
+  border-color: var(--primary-color, #0056b3);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px #0000001a;
+}
+
+.ProcessSteps-module___lRrTG__numberBadge {
+  background-color: var(--primary-color, #0056b3);
+  color: #fff;
+  border: 4px solid #f8f9fa;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ProcessSteps-module___lRrTG__imageContainer {
+  border-radius: 8px;
+  width: 100%;
+  height: 180px;
+  margin: 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.ProcessSteps-module___lRrTG__stepTitle {
+  color: #222;
+  margin: 1rem 0 .5rem;
+  font-size: 1.25rem;
+}
+
+.ProcessSteps-module___lRrTG__stepText {
+  color: #555;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=downloads_rwfhomeimprovements_rwf-next-app_a62fd728._.css.map*/

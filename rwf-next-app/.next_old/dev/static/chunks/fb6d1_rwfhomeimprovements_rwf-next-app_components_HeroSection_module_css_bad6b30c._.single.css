@@ -1,0 +1,84 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/HeroSection.module.css [app-client] (css) */
+.HeroSection-module__F3QDOG__hero {
+  background-position: center;
+  background-size: cover;
+  background-image: var(--hero-bg);
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+  min-height: 600px;
+  display: flex;
+  position: relative;
+}
+
+.HeroSection-module__F3QDOG__overlay {
+  z-index: 1;
+  background: linear-gradient(90deg, #000c 0%, #0006 60%, #0000001a 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.HeroSection-module__F3QDOG__content {
+  z-index: 2;
+  max-width: 650px;
+  position: relative;
+}
+
+.HeroSection-module__F3QDOG__title {
+  text-shadow: 0 2px 4px #0000004d;
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .HeroSection-module__F3QDOG__title {
+    word-wrap: break-word;
+    font-size: 2.2rem;
+  }
+
+  .HeroSection-module__F3QDOG__hero {
+    min-height: 500px;
+  }
+}
+
+.HeroSection-module__F3QDOG__ctaGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  display: flex;
+}
+
+.HeroSection-module__F3QDOG__serviceQuickLinks {
+  color: #ffffffe6;
+  flex-direction: column;
+  gap: .5rem;
+  font-size: .9rem;
+  display: flex;
+}
+
+.HeroSection-module__F3QDOG__quickLinks {
+  gap: 1.5rem;
+  display: flex;
+}
+
+.HeroSection-module__F3QDOG__quickLink {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: .85rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  border-bottom: 2px solid #ffffff4d;
+  padding-bottom: 2px;
+  transition: all .2s;
+}
+
+.HeroSection-module__F3QDOG__quickLink:hover {
+  border-bottom-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+/*# sourceMappingURL=fb6d1_rwfhomeimprovements_rwf-next-app_components_HeroSection_module_css_bad6b30c._.single.css.map*/

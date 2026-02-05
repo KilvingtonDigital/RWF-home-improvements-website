@@ -1,0 +1,78 @@
+{
+  "title": "Chain Link Fencing Fayetteville, NC & Sanford | Residential & Commercial",
+  "description": "Affordable chain link fencing in Fayetteville and Sanford, NC. Vinyl-coated and galvanized options for security and pets.",
+  "keywords": "Chain link fencing, Security fencing, Galvanized fence, Vinyl coated chain link, Fayetteville fencing, Sanford fencing, Fencing contractor",
+  "ogImage": "/images/chain-link-fence-mesh.jpg",
+  "heroImage": "/images/chain-link-fence-mesh.jpg",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Durable Chain Link Fencing in Fayetteville & Sanford"
+    }
+  ],
+  "params": {
+    "slug": "chain-link-fencing-for-sanford-and-fayetteville"
+  },
+  "serviceOptions": [
+    {
+      "title": "Secure Gates",
+      "description": "We offer customizable swing and slide gate options to complement your chain link fence, providing secure and convenient access points.",
+      "image": "/images/chain-link-gate-entrance.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Heights and Mesh Sizes",
+      "description": "Customize your chain link fence with varying heights and mesh sizes to perfectly suit your specific security and containment needs.",
+      "image": "/images/chain-link-mesh-sizes-fayetteville.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Coated Finishes",
+      "description": "Opt for vinyl-coated chain link fencing in colors like black or green for added style, blend, and superior corrosion resistance.",
+      "image": "/images/vinyl-coated-chain-link-green.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Privacy Slats",
+      "description": "Add privacy sheets (slats) to your chain link fence for enhanced dedication and seclusion without sacrificing the fence's inherent durability.",
+      "image": "/images/chain-link-privacy-slats-fayetteville.jpg",
+      "link": "/privacy-fencing",
+      "imageStyle": {
+        "objectPosition": "top"
+      }
+    }
+  ],
+  "benefitsImage": "/images/reliable-fence-installation-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Cost-Effective",
+      "description": "Exceptional value, providing a sturdy barrier at a fraction of the cost of other materials. Ideal for large properties."
+    },
+    {
+      "title": "Versatility",
+      "description": "Ideal for homes, schools, sports facilities, and industrial sites. Keeps pets in and intruders out."
+    },
+    {
+      "title": "Visibility",
+      "description": "Maintains visibility while providing robust security, allowing you to monitor your property boundaries easily."
+    },
+    {
+      "title": "Durability",
+      "description": "Galvanized and vinyl-coated steel resists rust and wear, standing strong against North Carolina weather for decades."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is chain link fencing good for dogs?",
+      "answer": "Yes, it is one of the most popular and effective choices for pet containment due to its durability and height options."
+    },
+    {
+      "question": "Can I add privacy to a chain link fence later?",
+      "answer": "Absolutely. Privacy slats can be installed into the mesh at any time to increase seclusion."
+    },
+    {
+      "question": "What is the difference between galvanized and vinyl-coated?",
+      "answer": "Galvanized is raw steel coated with zinc for rust protection (silver). Vinyl-coated adds a layer of colored plastic (usually black or green) for extra protection and a softer look."
+    }
+  ]
+}

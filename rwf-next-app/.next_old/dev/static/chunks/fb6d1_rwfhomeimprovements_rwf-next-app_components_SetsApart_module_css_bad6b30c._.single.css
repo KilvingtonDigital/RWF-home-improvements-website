@@ -1,0 +1,119 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/SetsApart.module.css [app-client] (css) */
+.SetsApart-module__uCtGjW__section {
+  background-color: var(--bg-secondary);
+  padding: 5rem 2rem;
+  overflow: hidden;
+}
+
+.SetsApart-module__uCtGjW__header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.SetsApart-module__uCtGjW__starIcon {
+  width: 40px;
+  height: 40px;
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.SetsApart-module__uCtGjW__title {
+  color: var(--text-primary);
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: var(--font-heading);
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+}
+
+.SetsApart-module__uCtGjW__grid {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+}
+
+.SetsApart-module__uCtGjW__card {
+  isolation: isolate;
+  cursor: default;
+  border-radius: 24px;
+  flex: 280px;
+  max-width: 360px;
+  height: 350px;
+  transition: transform .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.SetsApart-module__uCtGjW__card:hover {
+  transform: translateY(-5px);
+}
+
+.SetsApart-module__uCtGjW__cardImage {
+  transition: transform .5s;
+}
+
+.SetsApart-module__uCtGjW__card:hover .SetsApart-module__uCtGjW__cardImage {
+  transform: scale(1.05);
+}
+
+.SetsApart-module__uCtGjW__overlay {
+  z-index: 1;
+  background: linear-gradient(to top, #000000b3 0%, #0000004d 50%, #0000001a 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.SetsApart-module__uCtGjW__content {
+  z-index: 2;
+  text-align: left;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.SetsApart-module__uCtGjW__cardTitle {
+  text-shadow: 0 2px 4px #00000080;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.SetsApart-module__uCtGjW__cardText {
+  opacity: .95;
+  text-shadow: 0 1px 2px #00000080;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .SetsApart-module__uCtGjW__title {
+    font-size: 2rem;
+  }
+
+  .SetsApart-module__uCtGjW__grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .SetsApart-module__uCtGjW__card {
+    height: 300px;
+  }
+}
+
+/*# sourceMappingURL=fb6d1_rwfhomeimprovements_rwf-next-app_components_SetsApart_module_css_bad6b30c._.single.css.map*/

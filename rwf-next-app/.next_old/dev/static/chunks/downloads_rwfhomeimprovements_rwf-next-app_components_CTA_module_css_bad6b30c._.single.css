@@ -1,0 +1,87 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/CTA.module.css [app-client] (css) */
+.CTA-module__EhaNtW__ctaSection {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-radius: 8px;
+  align-items: center;
+  gap: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.CTA-module__EhaNtW__ctaImageCol {
+  aspect-ratio: 1;
+  flex: 1;
+  min-width: 400px;
+  max-width: 50%;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.CTA-module__EhaNtW__ctaOwnerImage {
+  object-fit: cover;
+  object-position: 50% 85%;
+  transform-origin: center;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.4);
+}
+
+.CTA-module__EhaNtW__ctaContentCol {
+  text-align: left;
+  flex: 1;
+  padding: 4rem;
+}
+
+.CTA-module__EhaNtW__ctaContentCol h2 {
+  color: #000;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.CTA-module__EhaNtW__ctaContentCol p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.CTA-module__EhaNtW__ctaButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.CTA-module__EhaNtW__ctaButton:hover {
+  color: #fff;
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .CTA-module__EhaNtW__ctaSection {
+    flex-direction: column;
+  }
+
+  .CTA-module__EhaNtW__ctaImageCol {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+  }
+
+  .CTA-module__EhaNtW__ctaContentCol {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+}
+
+/*# sourceMappingURL=downloads_rwfhomeimprovements_rwf-next-app_components_CTA_module_css_bad6b30c._.single.css.map*/

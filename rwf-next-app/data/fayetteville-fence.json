@@ -1,0 +1,81 @@
+{
+  "title": "Fence Installation Fayetteville, NC | Wood, Vinyl & Aluminum | RWF",
+  "description": "Top-rated fence installation in Fayetteville, NC. Wood, vinyl, aluminum, and chain link fencing by RWF Home Improvements. Free estimates.",
+  "keywords": "fence installation fayetteville nc, wood fencing, vinyl fencing, aluminum fence, privacy fence, chain link fence, fence repair, rwf home improvements",
+  "ogImage": "/images/fayetteville-fence-hero-dog-eared.jpg",
+  "heroImage": "/images/fayetteville-fence-hero-dog-eared.jpg",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Top-Rated Fence Installation in Fayetteville, NC"
+    }
+  ],
+  "params": {
+    "slug": "fayetteville-fence"
+  },
+  "serviceOptions": [
+    {
+      "title": "Wood Fencing",
+      "description": "Classic and versatile, wood fencing is a popular choice for homeowners who want a natural look with the option to customize height, style, and finish. RWF offers a range of wood types, including pressure-treated pine and cedar.",
+      "image": "/images/dog-eared-wooden-fence-installation-fayetteville.jpg",
+      "link": "/fayetteville-wood-fencing"
+    },
+    {
+      "title": "Vinyl Fencing",
+      "description": "Low-maintenance and long-lasting, vinyl fencing is perfect for North Carolina’s humid climate. Our vinyl fences won’t rot, warp, or splinter and are available in various styles.",
+      "image": "/images/maintenance-free-vinyl-fencing-nc.png",
+      "link": "/vinyl-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Aluminum Fencing",
+      "description": "Ideal for those looking for an elegant and durable option, aluminum fencing combines the beauty of wrought iron with modern durability. It’s resistant to rust and requires minimal upkeep.",
+      "image": "/images/ornamental-aluminum-fence-installation.jpg",
+      "link": "/aluminum-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Chain-Link Fencing",
+      "description": "Affordable and highly durable, chain-link fencing is a great solution for securing larger areas. A practical choice for backyards, pet enclosures, and commercial properties.",
+      "image": "/images/residential-commercial-chain-link-fence.jpg",
+      "link": "/chain-link-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Privacy Fencing",
+      "description": "Our privacy fences provide the ultimate in seclusion. Choose from a variety of materials and styles, including solid wood and vinyl, to create a private retreat.",
+      "image": "/images/shadow-box-privacy-fence-design.jpg",
+      "link": "/privacy-fencing"
+    }
+  ],
+  "benefitsImage": "/images/reliable-fence-installation-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Expertise You Can Trust",
+      "description": "Our dedicated team brings decades of hands-on experience in fence installation, ensuring each project is completed to the highest standard."
+    },
+    {
+      "title": "High-Quality Materials",
+      "description": "We only work with top-grade materials that are designed to withstand North Carolina’s changing weather conditions. Wood, vinyl, aluminum – built to last."
+    },
+    {
+      "title": "Comprehensive Service",
+      "description": "From the initial design consultation to the final inspection, we handle every step. Site preparation, material selection guidance, and professional installation."
+    },
+    {
+      "title": "Lifetime Wood Gate Warranty",
+      "description": "We stand by the quality of our work. That’s why we offer a lifetime warranty on wood gates, giving you peace of mind and confidence."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need a permit to install a fence in Fayetteville?",
+      "answer": "Permit requirements vary by location and fence height. We can help guide you through the local regulations for Fayetteville, Sanford, and Lillington."
+    },
+    {
+      "question": "How long does a typical fence installation take?",
+      "answer": "Most residential fence installations are completed within 1-3 days, depending on the size of the project and weather conditions."
+    },
+    {
+      "question": "What is the best low-maintenance fence option?",
+      "answer": "Vinyl and Aluminum fencing are excellent low-maintenance choices. They resist rot, rust, and pests, requiring only occasional cleaning."
+    }
+  ]
+}

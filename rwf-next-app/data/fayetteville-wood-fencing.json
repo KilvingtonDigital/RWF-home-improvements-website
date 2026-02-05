@@ -1,0 +1,81 @@
+{
+  "title": "Wood Fencing Fayetteville, NC & Sanford | Privacy & Picket | RWF",
+  "description": "Custom wood fencing installation in Fayetteville and Sanford, NC. Privacy, picket, and split rail fences. Pressure-treated pine and cedar options.",
+  "keywords": "Wood fencing, Privacy fence, Picket fence, Split rail fence, Cedar fencing, Fayetteville fencing contractor, Sanford wood fence",
+  "ogImage": "/images/dog-eared-wood-fence-fayetteville.jpg",
+  "heroImage": "/images/custom-wood-privacy-fence-fayetteville.jpg",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Custom Wood Fencing Installation in Fayetteville & Sanford"
+    }
+  ],
+  "params": {
+    "slug": "fayetteville-wood-fencing"
+  },
+  "serviceOptions": [
+    {
+      "title": "Privacy Fences",
+      "description": "Solid wood panels create a secluded backyard retreat, blocking views and reducing noise for maximum privacy.",
+      "image": "/images/privacy-fence-featured.png",
+      "link": "/privacy-fencing"
+    },
+    {
+      "title": "Picket Fences",
+      "description": "Add traditional charm to your front yard with a picket fence that defines boundaries while maintaining an open feel.",
+      "image": "/images/white-picket-fence-gate.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Split Rail Fences",
+      "description": "Perfect for larger properties, split rail fences offer a rustic look that defines property lines without obstructing views.",
+      "image": "/images/split-rail-wood-fence.jpg",
+      "link": "/farm-and-ranch-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Shadowbox Fences",
+      "description": "A 'good neighbor' fence that looks great from both sides, allowing airflow while providing semi-privacy.",
+      "image": "/images/shadowbox-wood-fence-garden.jpg",
+      "link": "/privacy-fencing"
+    },
+    {
+      "title": "Board-on-Board",
+      "description": "Overlapping boards ensure complete privacy even as the wood shrinks, offering a sturdy and attractive barrier.",
+      "image": "/images/board-on-board-detail.jpg",
+      "link": "/privacy-fencing"
+    }
+  ],
+  "benefitsImage": "/images/reliable-fence-installation-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Customizable Designs",
+      "description": "From picket to privacy, wood can be tailored to any height and style to match your home."
+    },
+    {
+      "title": "Natural Aesthetics",
+      "description": "Blends seamlessly with landscaping for a warm, organic look that vinyl or aluminum can't duplicate."
+    },
+    {
+      "title": "Affordability",
+      "description": "Wood fencing is a budget-friendly option that delivers high value, durability, and return on investment."
+    },
+    {
+      "title": "Eco-Friendly",
+      "description": "Crafted from renewable materials like pine and cedar, making it an environmentally responsible choice."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should I stain my wood fence?",
+      "answer": "We recommend staining or sealing your wood fence every 2-3 years to protect it from moisture and UV damage."
+    },
+    {
+      "question": "What is the best wood for fencing in NC?",
+      "answer": "Pressure-treated pine is the most popular due to its resistance to rot and termites. Cedar is also an excellent option for its natural resistance and beauty."
+    },
+    {
+      "question": "Do you warranty your wood fences?",
+      "answer": "Yes, we offer a lifetime warranty on the craftsmanship of our wood gates, ensuring they won't sag."
+    }
+  ]
+}

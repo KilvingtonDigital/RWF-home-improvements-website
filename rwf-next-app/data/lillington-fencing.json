@@ -1,0 +1,78 @@
+{
+  "title": "Home Improvement Services in Lillington, NC | RWF Home Improvement",
+  "description": "RWF Home Improvements proudly serves Lillington, NC, with expert fencing, decking, window, and door installation services. Enhance your home with our quality craftsmanship and personalized solutions. Contact us for a free consultation today!",
+  "keywords": "fencing lillington nc, deck builder lillington, window replacement lillington, door installation lillington, rwf home improvements",
+  "ogImage": "/images/lillington-nc-hero.png",
+  "heroImage": "/images/lillington-nc-hero.png",
+  "serviceOptions": [
+    {
+      "title": "Wood Fencing",
+      "description": "Classic, customizable, and perfect for privacy. Our shadow box and privacy fences are built to last.",
+      "image": "/images/wood-fence-fayetteville.jpg",
+      "link": "/fayetteville-wood-fencing"
+    },
+    {
+      "title": "Vinyl Fencing",
+      "description": "Low-maintenance and long-lasting, ideal for Lillington’s environment. A smart investment for any home.",
+      "image": "/images/vinyl-fence-fayetteville.png",
+      "link": "/vinyl-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Aluminum Fencing",
+      "description": "Elegant and durable, adding style and security to any property without sacrificing the view.",
+      "image": "/images/aluminum-fence-fayetteville.jpg",
+      "link": "/aluminum-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Custom Decks",
+      "description": "Tailored to fit your lifestyle and home aesthetic. Create the perfect outdoor oasis for family gatherings.",
+      "image": "/images/custom-deck-fayetteville.jpg",
+      "link": "/deck-installation"
+    },
+    {
+      "title": "Window Replacement",
+      "description": "Energy-efficient options that improve insulation and curb appeal. Custom designs to fit your home's character.",
+      "image": "/images/window-replacement-fayetteville.jpg",
+      "link": "/window-installation"
+    },
+    {
+      "title": "Door Installation",
+      "description": "Boost security and style with fiberglass, wood, and steel options for both exterior and interior entries.",
+      "image": "/images/door-installation-fayetteville.jpg",
+      "link": "/door-installation"
+    }
+  ],
+  "benefitsImage": "/images/reliable-fence-installation-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Over 35 Years of Experience",
+      "description": "Trusted by Lillington residents for decades, we bring seasoned expertise to every job."
+    },
+    {
+      "title": "Locally Focused",
+      "description": "We understand the unique needs of Lillington homes and the local community."
+    },
+    {
+      "title": "100% Satisfaction Guarantee",
+      "description": "We’re not satisfied until you are. Our commitment to quality is unwavering."
+    },
+    {
+      "title": "Licensed and Insured",
+      "description": "Providing peace of mind and professionalism for every project we undertake."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long will my fencing installation take?",
+      "answer": "Project timelines vary based on size and materials. Our team works efficiently to complete your Lillington project with minimal disruption."
+    },
+    {
+      "question": "Are your windows energy-efficient?",
+      "answer": "Yes, our windows are designed to improve your home's energy efficiency, which is especially important for our NC climate."
+    },
+    {
+      "question": "Do you provide warranties?",
+      "answer": "Yes, we stand behind our work with warranties on both products and labor. We'll discuss the specific coverage for your project during your consultation."
+    }
+  ]
+}

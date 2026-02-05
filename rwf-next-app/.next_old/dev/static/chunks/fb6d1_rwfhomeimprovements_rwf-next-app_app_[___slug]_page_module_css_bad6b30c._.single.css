@@ -1,0 +1,165 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/app/[...slug]/page.module.css [app-client] (css) */
+.page-module__0IdpMG__pageHeader {
+  border-bottom: 1px solid var(--bg-secondary);
+  margin-bottom: 3rem;
+  padding: 4rem 0 2rem;
+}
+
+.page-module__0IdpMG__pageHeader h1 {
+  color: var(--text-primary);
+  max-width: 900px;
+  font-size: 3rem;
+}
+
+.page-module__0IdpMG__content {
+  max-width: 800px;
+  color: var(--text-secondary);
+  margin: 5rem auto 6rem;
+}
+
+.page-module__0IdpMG__content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.page-module__0IdpMG__content > p:first-of-type {
+  color: var(--text-primary);
+  border-left: 4px solid var(--accent-color);
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  padding-left: 1.5rem;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.page-module__0IdpMG__content img {
+  object-fit: cover;
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  margin: 2rem 0;
+  box-shadow: 0 8px 16px #0000001f;
+}
+
+.page-module__0IdpMG__content h2, .page-module__0IdpMG__content h3 {
+  color: var(--primary-color);
+  margin-top: 2rem;
+}
+
+.page-module__0IdpMG__content table {
+  border-collapse: separate;
+  border-spacing: 0 1.5rem;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.page-module__0IdpMG__content thead {
+  display: none;
+}
+
+.page-module__0IdpMG__content tr {
+  background-color: #fff;
+  border-radius: 12px;
+  transition: transform .2s;
+  box-shadow: 0 4px 20px #0000000f;
+}
+
+.page-module__0IdpMG__content tr:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px #0000001a;
+}
+
+.page-module__0IdpMG__content td {
+  vertical-align: middle;
+  padding: 2rem;
+}
+
+.page-module__0IdpMG__content td:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 35%;
+  padding-right: 1rem;
+}
+
+.page-module__0IdpMG__content td:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.page-module__0IdpMG__content table img {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 100%;
+  height: 220px;
+  display: block;
+  float: none !important;
+  margin: 0 !important;
+}
+
+.page-module__0IdpMG__content table h3 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .page-module__0IdpMG__content table, .page-module__0IdpMG__content tbody, .page-module__0IdpMG__content tr, .page-module__0IdpMG__content td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .page-module__0IdpMG__content border-spacing {
+    border-spacing: 0;
+  }
+
+  .page-module__0IdpMG__content tr {
+    margin-bottom: 2rem;
+  }
+
+  .page-module__0IdpMG__content td:first-child {
+    border-radius: 12px 12px 0 0;
+    padding: 0;
+  }
+
+  .page-module__0IdpMG__content table img {
+    border-radius: 12px 12px 0 0;
+    height: 200px;
+  }
+
+  .page-module__0IdpMG__content td:last-child {
+    border-radius: 0 0 12px 12px;
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .page-module__0IdpMG__content img {
+    float: right;
+    max-width: 400px;
+    margin: .5rem 0 1.5rem 2.5rem;
+  }
+
+  .page-module__0IdpMG__content h2, .page-module__0IdpMG__content h3 {
+    clear: both;
+    padding-top: 1rem;
+  }
+}
+
+.page-module__0IdpMG__content hr {
+  clear: both;
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 3rem 0;
+}
+
+.page-module__0IdpMG__content:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*# sourceMappingURL=fb6d1_rwfhomeimprovements_rwf-next-app_app_%5B___slug%5D_page_module_css_bad6b30c._.single.css.map*/

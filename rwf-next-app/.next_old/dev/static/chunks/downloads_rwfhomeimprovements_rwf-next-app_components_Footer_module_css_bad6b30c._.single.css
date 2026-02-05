@@ -1,0 +1,102 @@
+/* [project]/downloads/rwfhomeimprovements/rwf-next-app/components/Footer.module.css [app-client] (css) */
+.Footer-module__FCh15W__footer {
+  background-color: var(--bg-dark);
+  color: #fff;
+  margin-top: auto;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.Footer-module__FCh15W__grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  margin-bottom: 4rem;
+  display: grid;
+}
+
+.Footer-module__FCh15W__column h4 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  opacity: .8;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.Footer-module__FCh15W__column ul {
+  list-style: none;
+}
+
+.Footer-module__FCh15W__column li {
+  margin-bottom: .8rem;
+}
+
+.Footer-module__FCh15W__column a {
+  color: #a0a0a0;
+  font-size: .95rem;
+}
+
+.Footer-module__FCh15W__column a:hover {
+  color: var(--primary-color);
+}
+
+.Footer-module__FCh15W__logo {
+  max-width: 220px;
+  height: auto;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.Footer-module__FCh15W__brandDesc {
+  color: #a0a0a0;
+  margin-top: 1rem;
+  font-size: .9rem;
+  line-height: 1.6;
+}
+
+.Footer-module__FCh15W__copyright {
+  color: #666;
+  border-top: 1px solid #ffffff1a;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+  font-size: .85rem;
+  display: flex;
+}
+
+.Footer-module__FCh15W__copyrightText {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.Footer-module__FCh15W__credit a {
+  color: #888;
+  text-decoration: underline;
+  transition: color .2s;
+}
+
+.Footer-module__FCh15W__credit a:hover {
+  color: var(--primary-color);
+}
+
+.Footer-module__FCh15W__legalLinks {
+  gap: 1.5rem;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .Footer-module__FCh15W__copyright {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .Footer-module__FCh15W__copyrightText {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=downloads_rwfhomeimprovements_rwf-next-app_components_Footer_module_css_bad6b30c._.single.css.map*/
