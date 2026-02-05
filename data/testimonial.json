@@ -1,0 +1,53 @@
+{
+  "title": "Testimonials | RWF Home Improvements",
+  "description": "See what our satisfied customers are saying about RWF Home Improvements. Read reviews on our fencing, deck, and door installation services in Fayetteville, Sanford, and Lillington.",
+  "keywords": "customer reviews, fence company testimonials, deck installation reviews, RWF Home Improvements reviews, Fayetteville NC fence reviews",
+  "intro": {
+    "title": "Testimonials & Reviews",
+    "subtitle": "At RWF Home Improvements, customer satisfaction is the foundation of our work. We take pride in delivering top-quality service and craftsmanship to each project, ensuring our clients’ expectations are not just met but exceeded. Here’s what some of our valued customers have to say about their experiences:"
+  },
+  "reviews": [
+    {
+      "name": "LaSarah Richardson",
+      "rating": 5,
+      "review": "It has officially been a year since RWF installed my fence and concrete. Everything is still standing strong with no issues. Richard and Hayley were patient and answered all my questions. Financing was a breeze, and I recommend them to everyone",
+      "title": "Outstanding Service"
+    },
+    {
+      "name": "Annette Lewis",
+      "rating": 5,
+      "review": "The team at RWF was fantastic! They installed my privacy fence within a day and left no mess behind. Hayley was incredibly thoughtful and made sure I understood everything. I love the way they designed the gate—such great quality",
+      "title": "Quick and Professional"
+    },
+    {
+      "name": "Crystal Sutton",
+      "rating": 5,
+      "review": "As a REALTOR, I deal with many contractors, and RWF stood out for their quick responses and excellent communication. They installed a beautiful privacy fence quickly and at the best price. I’m incredibly impressed with their professionalism.",
+      "title": "Top-Notch Communication"
+    },
+    {
+      "name": "Joan Newsome White",
+      "rating": 5,
+      "review": "RWF installed my vinyl fence, and I couldn’t be happier! The craftsmanship is top-notch, and the team was professional throughout. Highly recommend",
+      "title": "Beautiful Vinyl Fence"
+    },
+    {
+      "name": "Lynelle Smith",
+      "rating": 5,
+      "review": "RWF replaced my sliding glass door, and it’s made such a difference in my home. Their professionalism and quality are unmatched. Good things take time, and the result was worth it!",
+      "title": "Effortless Process"
+    },
+    {
+      "name": "Jay Nitz",
+      "rating": 5,
+      "review": "RWF installed a chain link fence that opened up my backyard for my dogs. Their crew was professional, quick, and efficient. I’m thrilled with the outcome and look forward to using them again for windows!",
+      "title": "Dependable Fencing"
+    },
+    {
+      "name": "Alina Bowden",
+      "rating": 5,
+      "review": "RWF installed a screened-in patio and new doors for us. Their prices were reasonable, and the team went above and beyond to ensure we were satisfied. We will definitely be repeat customers!",
+      "title": "Excellent Deck and Door Services"
+    }
+  ]
+}

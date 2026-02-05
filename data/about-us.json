@@ -1,0 +1,52 @@
+{
+  "title": "About RWF Home Improvements | Premier Fence Installation in Fayetteville, NC",
+  "description": "Family-owned fence company serving Fayetteville, Sanford, and Lillington. Expert installation of wood, vinyl, and aluminum fences, plus decks and windows.",
+  "keywords": "Fence Company Fayetteville NC, Fence Installation, Privacy Fence, Wood Fence, Vinyl Fence, Aluminum Fence, Deck Builders, RWF Home Improvements, Home Improvement Sanford NC",
+  "heroImage": "/images/about-assets/about-happy-customers.jpg",
+  "benefitsTitle": "Our Values",
+  "benefitsIntro": "At RWF Home Improvements, our work is guided by values that reflect who we are and how we serve our community.",
+  "benefits": [
+    {
+      "title": "Quality",
+      "description": "We use only the finest materials and proven installation methods to guarantee long-lasting results."
+    },
+    {
+      "title": "Integrity",
+      "description": "Honesty and transparency are central to our business practices. We keep our clients informed, involved, and empowered."
+    },
+    {
+      "title": "Customer Satisfaction",
+      "description": "Our goal is 100% satisfaction. We're not done until our clients are thrilled with the outcome."
+    },
+    {
+      "title": "Innovation",
+      "description": "From modern materials to energy-efficient solutions, we stay updated on industry trends to offer the best options."
+    }
+  ],
+  "benefitsImage": "/images/about-assets/values-section.jpg",
+  "featuresTitle": "What Sets Us Apart?",
+  "features": [
+    {
+      "title": "Family-Owned & Community-Focused",
+      "description": "As a family-owned business, we treat each of our clients like family. Serving Fayetteville, Sanford, Lillington, and surrounding areas.",
+      "image": "/images/about-assets/about-happy-customers.jpg"
+    },
+    {
+      "title": "Experienced Team",
+      "description": "Our team brings decades of expertise to fencing, decking, window and door installations, and custom patios.",
+      "image": "/images/about-assets/about-carpenter.jpg"
+    },
+    {
+      "title": "Lifetime Wood Gate Warranty",
+      "description": "We offer a lifetime warranty on our wood gates, giving you peace of mind that your investment is protected.",
+      "image": "/images/about-assets/about-warranty.jpg"
+    },
+    {
+      "title": "Instant Online Quotes",
+      "description": "Getting started is easy with our Instant Fence Quote tool. We also offer flexible financing options.",
+      "image": "/images/about-assets/instant-quote.jpg"
+    }
+  ],
+  "ctaTitle": "Our Commitment to You",
+  "ctaText": "When you choose RWF Home Improvements, you're choosing a team that cares. From our first consultation to the final reveal, we're here to make the process enjoyable and stress-free."
+}

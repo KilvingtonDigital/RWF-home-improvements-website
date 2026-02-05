@@ -1,0 +1,93 @@
+{
+  "title": "Custom Deck Builders in Fayetteville, NC | RWF Home Improvements",
+  "description": "Looking for expert deck builders in Fayetteville? RWF Home Improvements specializes in custom wood, composite, and multi-level deck installation.",
+  "keywords": "deck builders, custom deck installation, wood decks, composite decks, outdoor living space, Fayetteville deck contractor",
+  "ogImage": "/images/custom-deck-construction-fayetteville.jpg",
+  "processTitle": "Our Deck Installation Process",
+  "processSteps": [
+    {
+      "title": "Design Consultation",
+      "description": "We start with a personalized consultation to understand your vision, referencing your home's architecture and your specific needs for outdoor living.",
+      "image": "/images/deck-assets/multi-level-deck-design.jpg"
+    },
+    {
+      "title": "Material Selection",
+      "description": "Choose from premium pressure-treated wood, cedar, or low-maintenance composite materials to find the perfect match for your style and budget.",
+      "image": "/images/wood-decking-sample.jpg"
+    },
+    {
+      "title": "Expert Construction",
+      "description": "Our skilled craftsmen build your deck with precision, ensuring a safe, durable, and beautiful structure that stands the test of time.",
+      "image": "/images/custom-deck-construction-fayetteville.jpg"
+    }
+  ],
+  "serviceOptionsTitle": "Types of Decks We Build",
+  "serviceOptions": [
+    {
+      "title": "Wood Decks",
+      "description": "Classic, natural beauty. We use high-quality pressure-treated pine or cedar for a timeless look that blends seamlessly with your landscape.",
+      "image": "/images/wood-decking-sample.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Composite Decks",
+      "description": "The ultimate low-maintenance solution. Composite decking resists fading, staining, and mold, keeping your deck looking new for years.",
+      "image": "/images/composite-decking-materials.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Multi-Level Decks",
+      "description": "Maximize your outdoor space with a multi-level design, perfect for sloped yards or creating distinct zones for dining and lounging.",
+      "image": "/images/deck-assets/multi-level-deck-construction.jpg",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Custom Deck Features",
+      "description": "Enhance your deck with built-in seating, planters, pergolas, or custom railings to create a truly unique outdoor retreat.",
+      "image": "/images/pages/testimonial/varnishing-the-deck.jpg",
+      "link": "/contact-us"
+    }
+  ],
+  "benefitsTitle": "Why Choose RWF Home Improvements?",
+  "benefitsImage": "/images/custom-deck-construction-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Custom Design",
+      "description": "We don’t believe in one-size-fits-all. Every deck is designed specifically for your home and lifestyle."
+    },
+    {
+      "title": "Quality Craftsmanship",
+      "description": "Our team takes pride in their work, adhering to strict building codes and using superior construction techniques."
+    },
+    {
+      "title": "Durable Materials",
+      "description": "We source the best materials available to ensure your deck withstands the North Carolina elements."
+    },
+    {
+      "title": "Customer Satisfaction",
+      "description": "From the first call to the final inspection, we are dedicated to providing an exceptional customer experience."
+    }
+  ],
+  "featuresTitle": "Decking Material Options",
+  "features": [
+    {
+      "title": "Pressure-Treated Wood",
+      "text": "An affordable and popular choice, treated to resist rot and insects. It offers a classic look that can be stained or painted.",
+      "image": "/images/wood-deck-installation-process.jpg"
+    },
+    {
+      "title": "Cedar & Redwood",
+      "text": "Naturally resistant to weather and decay, these woods offer rich colors and a premium finish for a stunning natural aesthetic.",
+      "image": "/images/pages/testimonial/varnishing-the-deck.jpg"
+    },
+    {
+      "title": "Composite Decking",
+      "text": "A durable blend of wood fibers and plastic, composite decking requires minimal maintenance and comes in a variety of colors.",
+      "image": "/images/composite-decking-materials.jpg"
+    }
+  ],
+  "ctaTitle": "Ready to Transform Your Backyard?",
+  "ctaDescription": "Contact RWF Home Improvements today for a free consultation and estimate on your new custom deck.",
+  "ctaButtonText": "Get a Free Quote",
+  "ctaUrl": "/contact-us"
+}

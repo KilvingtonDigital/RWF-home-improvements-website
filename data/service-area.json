@@ -1,0 +1,89 @@
+{
+  "title": "Service Areas | RWF Home Improvements | Fayetteville, Sanford, Lillington",
+  "description": "Explore RWF Home Improvements' service areas, including Fayetteville, Sanford, Lillington, and surrounding NC communities. We specialize in fencing, decks, windows, and doors.",
+  "introTitle": "Proudly Serving Fayetteville, Sanford, Lillington, and Surrounding North Carolina Communities.",
+  "introText": "From Anderson Creek to Pinehurst and everywhere in between, RWF Home Improvements brings quality craftsmanship and reliable service to homeowners across the region. With over 35 years of experience, we understand the unique needs of North Carolina properties, ensuring every project—whether it's fencing, decking, or windows—is built to last in our local climate. Our dedicated team is committed to making your home improvement vision a reality, providing personalized solutions and exceptional results no matter where you are located within our service area.",
+  "primaryAreas": [
+    {
+      "name": "Fayetteville",
+      "link": "/fayetteville-nc"
+    },
+    {
+      "name": "Sanford",
+      "link": "/sanford-fencing"
+    },
+    {
+      "name": "Lillington",
+      "link": "/lillington-fencing"
+    }
+  ],
+  "surroundingAreas": [
+    "Spring Lake, Rockfish, Hope Mills, Raeford",
+    "Cameron, Vass, Southern Pines, Pinehurst",
+    "Broadway, Buies Creek, Angier, Dunn, and more."
+  ],
+  "benefitsTitle": "Why Homeowners Trust RWF Across NC",
+  "benefitsIntro": "With over 35 years of experience, we bring local expertise and quality craftsmanship to every project.",
+  "benefitsImage": "/images/expert-fence-installation-fayetteville-nc.png",
+  "benefits": [
+    {
+      "title": "Local Expertise",
+      "text": "We know the regulations, terrain, and styles that fit North Carolina homes best, ensuring a seamless installation."
+    },
+    {
+      "title": "Quality Materials",
+      "text": "We use only durable, high-quality materials designed to withstand local weather conditions and stand the test of time."
+    },
+    {
+      "title": "Satisfaction Guaranteed",
+      "text": "Your satisfaction is our priority. We stand behind our work with a 100% satisfaction guarantee on all installations."
+    }
+  ],
+  "serviceOptionsTitle": "What We Offer Across Our Service Areas",
+  "serviceOptions": [
+    {
+      "title": "Custom Fencing",
+      "description": "Privacy, picket, vinyl, aluminum, and chain link fencing tailored to your property.",
+      "image": "/images/custom-wood-privacy-fence-fayetteville.jpg",
+      "link": "/fayetteville-fence"
+    },
+    {
+      "title": "Deck Installation",
+      "description": "Custom wood and composite decks designed for outdoor living and entertainment.",
+      "image": "/images/custom-deck-fayetteville.jpg",
+      "link": "/deck-installation"
+    },
+    {
+      "title": "Window Replacement",
+      "description": "Energy-efficient windows that enhance curb appeal and lower energy bills.",
+      "image": "/images/window-installation-service-area.png",
+      "link": "/window-installation"
+    },
+    {
+      "title": "Door Installation",
+      "description": "Secure, stylish entry and patio doors installed by professionals.",
+      "image": "/images/door-installation-service-area.jpg",
+      "link": "/door-installation"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "LaSarah Richardson",
+      "rating": 5,
+      "review": "It has officially been a year since RWF installed my fence and concrete. Everything is still standing strong with no issues. Richard and Hayley were patient and answered all my questions. Financing was a breeze, and I recommend them to everyone",
+      "title": "Outstanding Service"
+    },
+    {
+      "name": "Annette Lewis",
+      "rating": 5,
+      "review": "The team at RWF was fantastic! They installed my privacy fence within a day and left no mess behind. Hayley was incredibly thoughtful and made sure I understood everything. I love the way they designed the gate—such great quality",
+      "title": "Quick and Professional"
+    },
+    {
+      "name": "Crystal Sutton",
+      "rating": 5,
+      "review": "As a REALTOR, I deal with many contractors, and RWF stood out for their quick responses and excellent communication. They installed a beautiful privacy fence quickly and at the best price. I’m incredibly impressed with their professionalism.",
+      "title": "Top-Notch Communication"
+    }
+  ]
+}

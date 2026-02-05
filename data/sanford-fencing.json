@@ -1,0 +1,77 @@
+{
+  "title": "Home Improvement Services in Sanford, NC | RWF Home Improvement",
+  "description": "Serving Sanford, NC, RWF Home Improvements specializes in fencing, decking, window, and door installations. Trust our skilled team for quality craftsmanship and personalized service. Contact us for a free consultation and elevate your property today!",
+  "keywords": "fencing sanford nc, deck builder sanford, window replacement sanford, door installation sanford, rwf home improvements",
+  "ogImage": "/images/sanford-nc-hero.png",
+  "heroImage": "/images/sanford-nc-hero.png",
+  "serviceOptions": [
+    {
+      "title": "Wood Fencing",
+      "description": "Classic, customizable, and perfect for privacy. Our shadow box and privacy fences are built to last.",
+      "image": "/images/wood-fence-fayetteville.jpg",
+      "link": "/fayetteville-wood-fencing"
+    },
+    {
+      "title": "Vinyl Fencing",
+      "description": "Low-maintenance and long-lasting, ideal for Sanford’s climate. A smart investment for any home.",
+      "image": "/images/vinyl-fence-fayetteville.png",
+      "link": "/vinyl-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Aluminum Fencing",
+      "description": "Elegant and durable, adding style and security to any property without sacrificing the view.",
+      "image": "/images/aluminum-fence-fayetteville.jpg",
+      "link": "/aluminum-fencing-for-sanford-and-fayetteville"
+    },
+    {
+      "title": "Custom Decks",
+      "description": "Tailored to fit your lifestyle and home aesthetic. Create the perfect outdoor oasis for family gatherings.",
+      "image": "/images/custom-deck-fayetteville.jpg",
+      "link": "/deck-installation"
+    },
+    {
+      "title": "Window Replacement",
+      "description": "Energy-efficient options that improve insulation and curb appeal. Custom designs to fit your home's character.",
+      "image": "/images/window-replacement-fayetteville.jpg",
+      "link": "/window-installation"
+    },
+    {
+      "title": "Door Installation",
+      "description": "Boost security and style with fiberglass, wood, and steel options for both exterior and interior entries.",
+      "image": "/images/door-installation-fayetteville.jpg",
+      "link": "/door-installation"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Over 35 Years of Experience",
+      "description": "Trusted by Sanford residents for decades, we bring seasoned expertise to every job."
+    },
+    {
+      "title": "Locally Focused",
+      "description": "We understand the unique needs of Sanford homes and the local landscape."
+    },
+    {
+      "title": "100% Satisfaction Guarantee",
+      "description": "We’re not satisfied until you are. Our commitment to quality is unwavering."
+    },
+    {
+      "title": "Licensed and Insured",
+      "description": "Providing peace of mind and professionalism for every project we undertake."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long will my fencing installation take?",
+      "answer": "Project timelines vary based on size and materials, but our Sanford team will work with you to ensure timely, efficient service. We strive to minimize disruption to your daily routine."
+    },
+    {
+      "question": "Are your windows energy-efficient?",
+      "answer": "Absolutely. Our energy-efficient windows are designed to reduce heat transfer, keeping your Sanford home cooler in summer and warmer in winter."
+    },
+    {
+      "question": "Do you provide warranties?",
+      "answer": "Yes, all of our installations and products come with warranties for your peace of mind. Please ask during your consultation for specifics on your chosen service."
+    }
+  ]
+}
