@@ -8,7 +8,7 @@ const contentDir = path.join(process.cwd(), 'content');
 export function getPageSlugs() {
     const files = fs.readdirSync(dataDir);
     return files
-        .filter(file => file.endsWith('.json') && file !== 'home.json')
+        .filter(file => file.endsWith('.json') && file !== 'home.json' && file !== 'gallery-images.json')
         .map(file => {
             const name = file.replace('.json', '');
             // Convert post-slug.json to post/slug route
