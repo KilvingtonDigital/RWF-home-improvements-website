@@ -1,8 +1,56 @@
 {
   "title": "Service area | RWF Home Improvement | Fayetteville, Sanford, Lillington",
   "description": "Explore RWF Home Improvements' service areas, including Fayetteville, Sanford, Lillington, and surrounding NC communities. We specialize in fencing, decks, windows, and doors, delivering top-quality installations and exceptional service to enhance your property.",
+  "heroCtaText": "Get a Free Quote",
+  "heroSubtitle": "Proudly Serving Fayetteville, Sanford, Lillington & Surrounding Areas",
   "keywords": "",
   "ogImage": "https://static.wixstatic.com/media/e6aca2_0d957fbebb0444f0ba5f53de1f84a9b9%7Emv2.png/v1/fit/w_2500,h_1330,al_c/e6aca2_0d957fbebb0444f0ba5f53de1f84a9b9%7Emv2.png",
+  "introTitle": "Proudly Serving Fayetteville, Sanford, Lillington & Surrounding Areas",
+  "introText": "From Anderson Creek to Pinehurst and everywhere in between, RWF Home Improvements brings quality craftsmanship and reliable service to homeowners across the region.",
+  "primaryAreas": [
+    {
+      "name": "Fayetteville",
+      "link": "/service-area/fayetteville-nc"
+    },
+    {
+      "name": "Sanford",
+      "link": "/service-area/sanford-nc"
+    },
+    {
+      "name": "Lillington",
+      "link": "/service-area/lillington-nc"
+    },
+    {
+      "name": "Spring Lake",
+      "link": "/service-area/spring-lake-nc"
+    },
+    {
+      "name": "Hope Mills",
+      "link": "/service-area/hope-mills-nc"
+    },
+    {
+      "name": "Raeford",
+      "link": "/service-area/raeford-nc"
+    },
+    {
+      "name": "Pinehurst",
+      "link": "/service-area/pinehurst-nc"
+    },
+    {
+      "name": "Southern Pines",
+      "link": "/service-area/southern-pines-nc"
+    }
+  ],
+  "surroundingAreas": [
+    "Anderson Creek",
+    "Aberdeen",
+    "Cameron",
+    "Vass",
+    "Broadway",
+    "Carthage",
+    "Whispering Pines",
+    "Fort Liberty"
+  ],
   "headings": [
     {
       "tag": "h1",

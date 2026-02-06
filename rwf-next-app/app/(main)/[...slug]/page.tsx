@@ -70,9 +70,9 @@ export default async function DynamicPage({ params }: PageProps) {
             <HeroSection
                 backgroundImage={heroBg}
                 title={h1}
-                subtitle="Trusted Quality & Craftsmanship" // Fallback subtitle for uniformity
-                ctaLink="/contact-us"
-                ctaText="Get a Quote"
+                subtitle={data.heroSubtitle || "Trusted Quality & Craftsmanship"} // Fallback subtitle for uniformity
+                ctaLink={data.heroCtaLink || "/contact-us"}
+                ctaText={data.heroCtaText || "Get a Quote"}
             />
 
             {data.primaryAreas && data.primaryAreas.length > 0 && (
@@ -94,6 +94,7 @@ export default async function DynamicPage({ params }: PageProps) {
                                 img: ({ node, ...props }) => (
                                     <img {...props} />
                                 ),
+                                p: ({ node, ...props }) => <div {...props} className={styles.paragraph} />,
                             }}
                         >
                             {data.content}

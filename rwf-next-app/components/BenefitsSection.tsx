@@ -3,7 +3,8 @@ import styles from './BenefitsSection.module.css';
 
 export interface BenefitItem {
     title: string;
-    text: string;
+    text?: string;
+    description?: string;
 }
 
 export interface BenefitsSectionProps {
@@ -18,12 +19,12 @@ export default function BenefitsSection({ title, intro, items, image }: Benefits
         <section className={styles.benefitsSection}>
             <div className={styles.container}>
                 <div className={styles.wrapper}>
-                    <div className={styles.content}>
-                        <div className={styles.header}>
-                            <h2 className={styles.title}>{title}</h2>
-                            {intro && <p className={styles.intro}>{intro}</p>}
-                        </div>
+                    <div className={styles.header}>
+                        <h2 className={styles.title}>{title}</h2>
+                        {intro && <p className={styles.intro}>{intro}</p>}
+                    </div>
 
+                    <div className={styles.contentRow}>
                         <div className={styles.list}>
                             {items.map((item, index) => (
                                 <div key={index} className={styles.item}>
@@ -34,20 +35,20 @@ export default function BenefitsSection({ title, intro, items, image }: Benefits
                                     </div>
                                     <div className={styles.itemContent}>
                                         <h3 className={styles.itemTitle}>{item.title}</h3>
-                                        <p className={styles.itemText}>{item.text}</p>
+                                        <p className={styles.itemText}>{item.text || item.description}</p>
                                     </div>
                                 </div>
                             ))}
                         </div>
-                    </div>
 
-                    <div className={styles.imageWrapper}>
-                        <Image
-                            src={image}
-                            alt={title}
-                            fill
-                            className={styles.image}
-                        />
+                        <div className={styles.imageWrapper}>
+                            <Image
+                                src={image}
+                                alt={title}
+                                fill
+                                className={styles.image}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

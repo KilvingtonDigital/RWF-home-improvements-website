@@ -1,32 +1,14 @@
 {
-  "title": "Door Installation & Replacement | RWF Home Improvements",
-  "description": "Expert door installation and replacement services in Fayetteville, Sanford, and Lillington. Enhance your home's security, efficiency, and curb appeal.",
-  "keywords": "Door installation, Door replacement, Entry doors, Patio doors, Storm doors, Fayetteville door services, Sanford door installer",
+  "title": "Exterior Door Installation Services | RWF Home Improvements",
+  "description": "Professional exterior door installation by RWF Home Improvements. Secure, stylish, and energy-efficient entry and patio doors.",
+  "heroCtaText": "Get a Free Door Quote",
+  "heroSubtitle": "Enhance Your Home’s Security, Efficiency, and Curb Appeal",
+  "keywords": "door installation, exterior door replacement, front doors, patio doors, sliding glass doors, Fayetteville door installer",
   "ogImage": "/images/professional-door-installation-fayetteville.jpg",
-  "heroImage": "/images/professional-door-installation-fayetteville.jpg",
   "headings": [
     {
       "tag": "h1",
       "text": "Professional Door Installation & Replacement Services"
-    },
-    {
-      "tag": "h3",
-      "text": "Enhance Your Home’s Security, Efficiency, and Curb Appeal"
-    },
-    {
-      "tag": "h2",
-      "text": "Why Upgrade Your Doors?"
-    },
-    {
-      "tag": "h2",
-      "text": "Our Door Installation Process: Quality from Start to Finish"
-    },
-    {
-      "tag": "h2",
-      "text": "Service Areas"
-    },
-    {
-      "text": "Upgrade Your Home with New Doors Today"
     }
   ],
   "benefitsTitle": "Why Upgrade Your Doors?",
@@ -75,371 +57,29 @@
       "link": "/contact-us"
     }
   ],
-  "links": [
+  "processTitle": "Our Door Installation Process: Quality from Start to Finish",
+  "processSteps": [
     {
-      "text": "Instant Quote",
-      "href": "https://rwfhomeimprovements.mybudgetquote.com/budget"
+      "title": "Consultation & Selection",
+      "description": "We begin with a detailed consultation to understand your needs, preferences, and budget. Our team will guide you through various door options, considering factors like energy efficiency, durability, and style.",
+      "image": "/images/design-consultation-samples.jpg"
     },
     {
-      "text": "Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-fence"
+      "title": "Precise Measurements & Customization",
+      "description": "Each door installation is custom-fitted to your home. We take exact measurements to ensure a perfect fit, whether you’re replacing a single door or upgrading multiple entrances.",
+      "image": "/images/custom-entry-door-installation-wood-fiberglass-steel.jpg"
     },
     {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
+      "title": "Professional Installation",
+      "description": "Our certified installers bring expertise and attention to detail, ensuring your new door is securely mounted, aligned, and sealed to prevent drafts.",
+      "image": "/images/professional-door-installation-fayetteville.jpg"
     },
     {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck",
-      "href": "https://www.rwfhomeimprovements.com/deck-installation"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Window",
-      "href": "https://www.rwfhomeimprovements.com/window-installation"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Door",
-      "href": "https://www.rwfhomeimprovements.com/door-installation"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "About Us",
-      "href": "https://www.rwfhomeimprovements.com/about-us"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service area",
-      "href": "https://www.rwfhomeimprovements.com/service-area"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Finance",
-      "href": "https://www.rwfhomeimprovements.com/finance"
-    },
-    {
-      "text": "Contact us",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "RWF Home Improvements",
-      "href": "https://www.rwfhomeimprovements.com/"
-    },
-    {
-      "text": "Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Get free quote",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "RWF Home Improvements",
-      "href": "https://www.rwfhomeimprovements.com/"
-    },
-    {
-      "text": "Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Contact us",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "Call now",
-      "href": "tel:9107096734"
-    },
-    {
-      "text": "RWF Home Improvements",
-      "href": "https://www.rwfhomeimprovements.com/"
-    },
-    {
-      "text": "Instant Quote",
-      "href": "https://rwfhomeimprovements.mybudgetquote.com/budget"
-    },
-    {
-      "text": "Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-fence"
-    },
-    {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
-    },
-    {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck",
-      "href": "https://www.rwfhomeimprovements.com/deck-installation"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Window",
-      "href": "https://www.rwfhomeimprovements.com/window-installation"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Door",
-      "href": "https://www.rwfhomeimprovements.com/door-installation"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "About Us",
-      "href": "https://www.rwfhomeimprovements.com/about-us"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service area",
-      "href": "https://www.rwfhomeimprovements.com/service-area"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Finance",
-      "href": "https://www.rwfhomeimprovements.com/finance"
-    },
-    {
-      "text": "Contact us",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "Kilvington Digital Marketing",
-      "href": "https://www.kilvingtondigitalmarketing.com/"
-    },
-    {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
-    },
-    {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
-    },
-    {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
+      "title": "Quality Assurance & Maintenance Tips",
+      "description": "After installation, we perform a thorough inspection to verify quality. We also provide guidance on maintaining your new door to ensure it looks great and operates smoothly for years to come.",
+      "image": "/images/fayetteville-fence-installation-quality-inspection.jpg"
     }
   ],
-  "url": "https://www.rwfhomeimprovements.com/door-installation"
+  "ctaTitle": "Upgrade Your Home with New Doors Today",
+  "ctaText": "Transform your home’s entrances with RWF’s professional door installation and replacement services. <a href='/contact-us'>Contact us today</a> to schedule your free consultation, and let our team guide you in selecting the perfect doors to enhance your home’s security, energy efficiency, and curb appeal."
 }

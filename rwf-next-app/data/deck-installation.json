@@ -1,404 +1,95 @@
 {
-  "title": "Deck Builders Fayetteville & Sanford, NC | Custom Deck Installation",
-  "description": "Premier deck builders in Fayetteville and Sanford, NC. Custom wood and composite decking installers. Call RWF Home Improvements for a free quote.",
-  "keywords": "deck builders fayetteville nc, deck builders sanford nc, decking installers, custom decks, wood decking, composite decking, deck replacement",
-  "ogImage": "/images/deck-installation-hero.jpg",
-  "heroImage": "/images/deck-installation-hero.jpg",
-  "headings": [
+  "title": "Custom Deck Builders in Fayetteville, NC | RWF Home Improvements",
+  "description": "Looking for expert deck builders in Fayetteville? RWF Home Improvements specializes in custom wood, composite, and multi-level deck installation.",
+  "heroCtaText": "Get a Free Deck Quote",
+  "heroSubtitle": "Expand Your Living Space with Custom Decks Built for North Carolina Homes",
+  "keywords": "deck builders, custom deck installation, wood decks, composite decks, outdoor living space, Fayetteville deck contractor",
+  "ogImage": "/images/custom-deck-construction-fayetteville.jpg",
+  "processTitle": "Our Deck Installation Process",
+  "processSteps": [
     {
-      "tag": "h1",
-      "text": "Premier Deck Builders in Fayetteville & Sanford, NC"
+      "title": "Design Consultation",
+      "description": "We start with a personalized consultation to understand your vision, referencing your home's architecture and your specific needs for outdoor living.",
+      "image": "/images/deck-assets/multi-level-deck-design.jpg"
     },
     {
-      "tag": "h2",
-      "text": "Why Choose a Custom Deck from RWF Home Improvements?"
+      "title": "Material Selection",
+      "description": "Choose from premium pressure-treated wood, cedar, or low-maintenance composite materials to find the perfect match for your style and budget.",
+      "image": "/images/wood-decking-sample.jpg"
     },
     {
-      "tag": "h3",
-      "text": "1. Tailored Deck Designs"
-    },
-    {
-      "tag": "h3",
-      "text": "2. High-Quality Materials"
-    },
-    {
-      "tag": "h3",
-      "text": "3. Skilled Craftsmanship"
-    },
-    {
-      "tag": "h3",
-      "text": "4. End-to-End Service"
-    },
-    {
-      "tag": "h2",
-      "text": "Our Deck Options"
-    },
-    {
-      "tag": "h2",
-      "text": "Quality Materials for Long-Lasting Decks"
-    },
-    {
-      "tag": "h2",
-      "text": "Maintenance Tips for Deck Longevity"
-    },
-    {
-      "tag": "h2",
-      "text": "Service Areas for Deck Installation"
+      "title": "Expert Construction",
+      "description": "Our skilled craftsmen build your deck with precision, ensuring a safe, durable, and beautiful structure that stands the test of time.",
+      "image": "/images/custom-deck-construction-fayetteville.jpg"
     }
   ],
-  "links": [
+  "serviceOptionsTitle": "Types of Decks We Build",
+  "serviceOptions": [
     {
-      "text": "Instant Quote",
-      "href": "https://rwfhomeimprovements.mybudgetquote.com/budget"
+      "title": "Wood Decks",
+      "description": "Classic, natural beauty. We use high-quality pressure-treated pine or cedar for a timeless look that blends seamlessly with your landscape.",
+      "image": "/images/wood-decking-sample.jpg",
+      "link": "/contact-us"
     },
     {
-      "text": "Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-fence"
+      "title": "Composite Decks",
+      "description": "The ultimate low-maintenance solution. Composite decking resists fading, staining, and mold, keeping your deck looking new for years.",
+      "image": "/images/composite-decking-materials.jpg",
+      "link": "/contact-us"
     },
     {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
+      "title": "Multi-Level Decks",
+      "description": "Maximize your outdoor space with a multi-level design, perfect for sloped yards or creating distinct zones for dining and lounging.",
+      "image": "/images/deck-assets/multi-level-deck-construction.jpg",
+      "link": "/contact-us"
     },
     {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck",
-      "href": "https://www.rwfhomeimprovements.com/deck-installation"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Window",
-      "href": "https://www.rwfhomeimprovements.com/window-installation"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Door",
-      "href": "https://www.rwfhomeimprovements.com/door-installation"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "About Us",
-      "href": "https://www.rwfhomeimprovements.com/about-us"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service area",
-      "href": "https://www.rwfhomeimprovements.com/service-area"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Finance",
-      "href": "https://www.rwfhomeimprovements.com/finance"
-    },
-    {
-      "text": "Contact us",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "RWF Home Improvements",
-      "href": "https://www.rwfhomeimprovements.com/"
-    },
-    {
-      "text": "Get Quote",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "RWF Home Improvements",
-      "href": "https://www.rwfhomeimprovements.com/"
-    },
-    {
-      "text": "Get Quote",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "RWF Home Improvements",
-      "href": "https://www.rwfhomeimprovements.com/"
-    },
-    {
-      "text": "Instant Quote",
-      "href": "https://rwfhomeimprovements.mybudgetquote.com/budget"
-    },
-    {
-      "text": "Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-fence"
-    },
-    {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
-    },
-    {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck",
-      "href": "https://www.rwfhomeimprovements.com/deck-installation"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Window",
-      "href": "https://www.rwfhomeimprovements.com/window-installation"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Door",
-      "href": "https://www.rwfhomeimprovements.com/door-installation"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "About Us",
-      "href": "https://www.rwfhomeimprovements.com/about-us"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service area",
-      "href": "https://www.rwfhomeimprovements.com/service-area"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Finance",
-      "href": "https://www.rwfhomeimprovements.com/finance"
-    },
-    {
-      "text": "Contact us",
-      "href": "https://www.rwfhomeimprovements.com/contact-us"
-    },
-    {
-      "text": "910 709 6734",
-      "href": "tel:910 709 6734"
-    },
-    {
-      "text": "Kilvington Digital Marketing",
-      "href": "https://www.kilvingtondigitalmarketing.com/"
-    },
-    {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
-    },
-    {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
-    },
-    {
-      "text": "Privacy Fencing",
-      "href": "https://www.rwfhomeimprovements.com/privacy-fencing"
-    },
-    {
-      "text": "Wood Fence",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-wood-fencing"
-    },
-    {
-      "text": "Vinyl Fence",
-      "href": "https://www.rwfhomeimprovements.com/vinyl-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Aluminum Fencing",
-      "href": "https://www.rwfhomeimprovements.com/aluminum-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Chain Link Fencing",
-      "href": "https://www.rwfhomeimprovements.com/chain-link-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Farm and Ranch Fencing",
-      "href": "https://www.rwfhomeimprovements.com/farm-and-ranch-fencing-for-sanford-and-fayetteville"
-    },
-    {
-      "text": "Deck Design",
-      "href": "https://www.rwfhomeimprovements.com/deck-design"
-    },
-    {
-      "text": "Energy Efficient Window",
-      "href": "https://www.rwfhomeimprovements.com/energy-efficient-window-installations"
-    },
-    {
-      "text": "Exterior & Interior Door",
-      "href": "https://www.rwfhomeimprovements.com/exterior-and-interior-door-installation"
-    },
-    {
-      "text": "Gallery",
-      "href": "https://www.rwfhomeimprovements.com/home-improvement-project-gallery"
-    },
-    {
-      "text": "Testmonial",
-      "href": "https://www.rwfhomeimprovements.com/testimonial"
-    },
-    {
-      "text": "Post",
-      "href": "https://www.rwfhomeimprovements.com/post"
-    },
-    {
-      "text": "Service in Fayetteville",
-      "href": "https://www.rwfhomeimprovements.com/fayetteville-nc"
-    },
-    {
-      "text": "Service in Sanford",
-      "href": "https://www.rwfhomeimprovements.com/sanford-fencing"
-    },
-    {
-      "text": "Service in Lillington",
-      "href": "https://www.rwfhomeimprovements.com/lillington-fencing"
+      "title": "Custom Deck Features",
+      "description": "Enhance your deck with built-in seating, planters, pergolas, or custom railings to create a truly unique outdoor retreat.",
+      "image": "/images/pages/testimonial/varnishing-the-deck.jpg",
+      "link": "/contact-us"
     }
   ],
-  "url": "https://www.rwfhomeimprovements.com/deck-installation"
+  "benefitsTitle": "Why Choose a Custom Deck from RWF Home Improvements",
+  "benefitsIntro": "Building a custom deck is the perfect way to extend your living space outdoors. At RWF Home Improvements, we combine expert design with premium materials to create the backyard oasis you've always dreamed of.",
+  "benefitsImage": "/images/custom-deck-construction-fayetteville.jpg",
+  "benefits": [
+    {
+      "title": "Custom Design",
+      "description": "We don’t believe in one-size-fits-all. Every deck is designed specifically for your home and lifestyle."
+    },
+    {
+      "title": "Quality Craftsmanship",
+      "description": "Our team takes pride in their work, adhering to strict building codes and using superior construction techniques."
+    },
+    {
+      "title": "Durable Materials",
+      "description": "We source the best materials available to ensure your deck withstands the North Carolina elements."
+    },
+    {
+      "title": "Customer Satisfaction",
+      "description": "From the first call to the final inspection, we are dedicated to providing an exceptional customer experience."
+    }
+  ],
+  "featuresTitle": "Decking Material Options",
+  "features": [
+    {
+      "title": "Pressure-Treated Wood",
+      "text": "An affordable and popular choice, treated to resist rot and insects. It offers a classic look that can be stained or painted.",
+      "image": "/images/wood-deck-installation-process.jpg"
+    },
+    {
+      "title": "Cedar & Redwood",
+      "text": "Naturally resistant to weather and decay, these woods offer rich colors and a premium finish for a stunning natural aesthetic.",
+      "image": "/images/pages/testimonial/varnishing-the-deck.jpg"
+    },
+    {
+      "title": "Composite Decking",
+      "text": "A durable blend of wood fibers and plastic, composite decking requires minimal maintenance and comes in a variety of colors.",
+      "image": "/images/composite-decking-materials.jpg"
+    }
+  ],
+  "ctaTitle": "Ready to Transform Your Backyard?",
+  "ctaText": "Contact RWF Home Improvements today for a free consultation and estimate on your new custom deck. <a href='/contact-us'>Get a Free Quote</a> now and start building your dream outdoor space.",
+  "ctaUrl": "/contact-us"
 }
