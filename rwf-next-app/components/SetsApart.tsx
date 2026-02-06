@@ -16,7 +16,7 @@ const defaultItems: FeatureItem[] = [
     {
         title: "Family Owned",
         text: "Local experts who understand the needs of our communities.",
-        image: "/images/Happy_20RWF_20Customers.jpg"
+        image: "/images/about-happy-customers.jpg"
     },
     {
         title: "Lifetime Wood Gate Warranty",
@@ -31,7 +31,7 @@ const defaultItems: FeatureItem[] = [
     {
         title: "100% Satisfaction Guarantee",
         text: "We're committed to excellence in every project.",
-        image: "/images/Bill.jpg"
+        image: "/images/reliable-fence-installation-fayetteville.jpg"
     },
     {
         title: "Financing Available",

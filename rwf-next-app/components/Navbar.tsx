@@ -145,9 +145,9 @@ export default function Navbar() {
                 </nav>
 
                 <div className={styles.cta}>
-                    <Link href="/contact-us" className="btn btn-primary">
+                    <a href="https://rwfhomeimprovements.mybudgetquote.com/budget" className="btn btn-primary">
                         Get Instant Quote
-                    </Link>
+                    </a>
                 </div>
 
                 {/* Mobile Toggle */}

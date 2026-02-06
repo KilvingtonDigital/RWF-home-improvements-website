@@ -30,9 +30,15 @@ export default function HeroSection({ backgroundImage, title, subtitle, ctaLink,
 
                     <div className={styles.ctaGroup}>
                         {ctaLink && ctaText && (
-                            <Link href={ctaLink} className="btn btn-primary">
-                                {ctaText}
-                            </Link>
+                            ctaLink.startsWith('http') ? (
+                                <a href={ctaLink} className="btn btn-primary">
+                                    {ctaText}
+                                </a>
+                            ) : (
+                                <Link href={ctaLink} className="btn btn-primary">
+                                    {ctaText}
+                                </Link>
+                            )
                         )}
                         {/* Secondary Service Links */}
                         {!hideSecondaryLinks && (
