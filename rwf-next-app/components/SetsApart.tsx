@@ -16,7 +16,7 @@ const defaultItems: FeatureItem[] = [
     {
         title: "Family Owned",
         text: "Local experts who understand the needs of our communities.",
-        image: "/images/about-happy-customers.jpg"
+        image: "/images/about-assets/about-happy-customers.jpg"
     },
     {
         title: "Lifetime Wood Gate Warranty",
