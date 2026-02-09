@@ -1,0 +1,28 @@
+
+> rwf-next-app@0.1.0 build
+> node scripts/generate-gallery-json.js && next build --debug
+
+Generating gallery manifest...
+Generated manifest with 128 images at C:\Business\Kilvington Woodworks\Agentic Agents\Website scraping tool - website replicator\downloads\rwfhomeimprovements\rwf-next-app\data\gallery-images.json
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Business\Kilvington Woodworks\Agentic Agents\Website scraping tool - website replicator\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Business\Kilvington Woodworks\Agentic Agents\Website scraping tool - website replicator\downloads\rwfhomeimprovements\rwf-next-app\package-lock.json
+
+▲ Next.js 16.1.5 (Turbopack)
+- Environments: .env.local, .env
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.8s
+  Running TypeScript ...
+  Collecting page data using 19 workers ...
+  Generating static pages using 19 workers (0/42) ...
+Error occurred prerendering page "/pricing". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot read properties of undefined (reading 'split')
+    at gO (C:\Business\Kilvington Woodworks\Agentic Agents\Website scraping tool - website replicator\downloads\rwfhomeimprovements\rwf-next-app\.next\server\chunks\ssr\[root-of-the-server]__b358056b._.js:1:326449) {
+  digest: '154793187'
+}
+Export encountered an error on /(main)/[...slug]/page: /pricing, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null

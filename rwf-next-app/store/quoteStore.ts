@@ -14,6 +14,7 @@ const initialFormData: QuoteFormData = {
     polygons: [],
     gateMarkers: [],
     fenceType: null,
+    fenceGrade: null,
     fenceStyle: null,
     fenceHeight: null,
 };

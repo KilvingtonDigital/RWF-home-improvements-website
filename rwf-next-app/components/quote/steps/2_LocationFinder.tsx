@@ -3,7 +3,7 @@
 import { useQuoteStore } from '@/store/quoteStore';
 import { GoogleMap, Marker, Autocomplete } from '@react-google-maps/api';
 import { useState, useRef, useCallback } from 'react';
-import { ChevronComponent } from './3_FenceDrawer'; // Will define next
+
 import { ChevronRight, Search } from 'lucide-react';
 import GoogleMapWrapper from '../GoogleMapWrapper';
 import styles from '../Quote.module.css';
