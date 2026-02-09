@@ -1,0 +1,12 @@
+{
+  "fences": {
+    "Wood": 1,
+    "Vinyl": 35,
+    "Aluminum": 42,
+    "Chain Link": 18
+  },
+  "gates": {
+    "single": 300,
+    "double": 500
+  }
+}

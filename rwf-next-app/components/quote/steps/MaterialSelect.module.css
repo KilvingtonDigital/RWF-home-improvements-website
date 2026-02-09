@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .stepsContainer {
+        margin-top: 3rem !important;
+        /* Force space on mobile */
+        scroll-margin-top: 150px;
+        /* Ensure 150px buffer above element when auto-scrolling */
+    }
+}
+
+.calculateContainer {
+    margin-top: 40px !important;
+    padding-top: 30px !important;
+    border-top: 1px solid #e2e8f0;
+    /* gray-200 */
+    display: flex;
+    justify-content: flex-end;
+    /* Reverted to right-aligned per request */
+    width: 100%;
+}
+
+.calculateButton {
+    /* Base styles to ensure it overrides any conflicting tailwind defaults if necessary */
+    margin-top: 0;
+}

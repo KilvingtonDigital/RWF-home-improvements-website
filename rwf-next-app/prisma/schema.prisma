@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Pricing {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique // e.g. "default"
+  fences    Json     // Stores { "Wood": 25, "Vinyl": 35, ... }
+  gates     Json     // Stores { "single": 300, "double": 500 }
+  updatedAt DateTime @updatedAt
+}
+
+model Lead {
+  id            Int      @id @default(autoincrement())
+  createdAt     DateTime @default(now())
+  
+  // Contact Info
+  firstName     String
+  lastName      String
+  email         String   @unique // We upsert by email to prevent dupes
+  phone         String?
+  address       String?
+
+  // Project Details
+  fenceType     String?
+  fenceGrade    String?
+  fenceStyle    String?
+  fenceHeight   String?
+  linearFootage Float?
+  
+  // Gate Details (Stored as JSON for flexibility: { "single": 1, "double": 0 })
+  gates         Json?
+
+  // Financials
+  estimatedPriceMin Int?
+  estimatedPriceMax Int?
+
+  // Metadata
+  intent        String   @default("browsing") // browsing, pricing_view, consultation_request
+  source        String?  // e.g. "quote_wizard"
+  status        String   @default("new") // new, contacted, closed
+}

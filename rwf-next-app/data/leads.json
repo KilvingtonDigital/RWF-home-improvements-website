@@ -1,0 +1,51 @@
+[
+  {
+    "id": "222e508f-6d94-46ec-81ab-a44a166a3061",
+    "submittedAt": "2026-02-09T03:45:17.612Z",
+    "firstName": "Ricky",
+    "lastName": "Whittaker",
+    "email": "rickykwhittaker.rw@gmail.com",
+    "phone": "8645674355",
+    "address": "411 A Birch St, Sanford, NC 27330, USA",
+    "projectDetails": {
+      "fenceType": "Wood",
+      "fenceGrade": null,
+      "fenceStyle": "Picket",
+      "fenceHeight": "8 ft",
+      "linearFootage": 235,
+      "gates": {
+        "single": 0,
+        "double": 0
+      },
+      "estimatedPrice": {
+        "min": 212,
+        "max": 259
+      }
+    },
+    "intent": "pricing_view"
+  },
+  {
+    "id": "6b2ad241-bbb5-4423-9098-c4590118baeb",
+    "submittedAt": "2026-02-07T23:55:53.296Z",
+    "firstName": "Ricky",
+    "lastName": "Whittaker",
+    "email": "rickykwhittaker.rw@gmail.com",
+    "phone": "8645674355",
+    "address": "411 Crusaders Dr, Sanford, NC 27330, USA",
+    "projectDetails": {
+      "fenceType": "Wood",
+      "fenceStyle": "Privacy",
+      "fenceHeight": "8 ft",
+      "linearFootage": 276,
+      "gates": {
+        "single": 1,
+        "double": 2
+      },
+      "estimatedPrice": {
+        "min": 1418,
+        "max": 1734
+      }
+    },
+    "intent": "consultation_request"
+  }
+]
