@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, RefreshCw, DollarSign } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { ArrowLeft, RefreshCw, DollarSign, LogOut } from 'lucide-react';
 
 interface Lead {
     id: string;
@@ -24,6 +25,7 @@ interface Lead {
 }
 
 export default function AdminLeadsPage() {
+    const router = useRouter();
     const [leads, setLeads] = useState<Lead[]>([]);
     const [loading, setLoading] = useState(true);
 
@@ -57,6 +59,15 @@ export default function AdminLeadsPage() {
                         <p className="text-gray-500">View and manage quote submissions.</p>
                     </div>
                     <div className="flex gap-4">
+                        <button
+                            onClick={async () => {
+                                await fetch('/api/auth/logout', { method: 'POST' });
+                                router.push('/admin/login');
+                            }}
+                            className="bg-white text-gray-500 border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-100 hover:text-gray-700 flex items-center gap-2"
+                        >
+                            <LogOut size={18} /> Logout
+                        </button>
                         <Link
                             href="/admin/pricing"
                             className="bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 flex items-center gap-2"

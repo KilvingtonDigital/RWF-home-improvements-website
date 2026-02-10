@@ -114,11 +114,20 @@ export default function MaterialSelect() {
 
         try {
             // Calculate Estimate for the payload
-            // This is a rough estimation for the lead capture. Real pricing engine is more complex.
-            let basePrice = pricing?.fences[formData.fenceType] || 25;
+            // Updated to use the new detailed pricing matrix (Material -> Style -> Height)
+            let basePrice = 25; // fallback
 
-            // Adjust for grade
-            if (formData.fenceGrade === 'Commercial') basePrice *= 1.3;
+            if (pricing?.fences && formData.fenceType && formData.fenceStyle && formData.fenceHeight) {
+                // Try to find exact match in matrix
+                const matrixPrice = pricing.fences[formData.fenceType]?.[formData.fenceStyle]?.[formData.fenceHeight];
+                if (matrixPrice) {
+                    basePrice = matrixPrice;
+                }
+            }
+
+            // Adjust for grade using dynamic multiplier if available, else default to 1.3
+            const commercialMult = pricing?.options?.commercial_multiplier || 1.3;
+            if (formData.fenceGrade === 'Commercial') basePrice *= commercialMult;
 
             const singleGatePrice = pricing?.gates.single || 300;
             const doubleGatePrice = pricing?.gates.double || 500;

@@ -1,37 +1,5 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-
-// Define the file path for leads
-const leadsFilePath = path.join(process.cwd(), 'data', 'leads.json');
-
-// Interface for type safety (optional but good practice)
-interface LeadData {
-    id: string;
-    submittedAt: string;
-    firstName: string;
-    lastName: string;
-    email: string;
-    phone: string;
-    address: string;
-    projectDetails: {
-        fenceType: string;
-        fenceGrade?: string;
-        fenceStyle: string;
-        fenceHeight: string;
-        linearFootage: number;
-        gates: {
-            single: number;
-            double: number;
-        };
-        estimatedPrice: {
-            min: number;
-            max: number;
-        };
-        mapDeepLink?: string; // Future proofing
-    };
-    intent: 'pricing_view' | 'consultation_request';
-}
+import { prisma } from '@/lib/prisma';
 
 export async function POST(request: Request) {
     try {
@@ -43,78 +11,59 @@ export async function POST(request: Request) {
         }
 
         // Bot Protection Checks
-        // 1. Honeypot Check
         if (body.honeyPot) {
-            // Silently fail (return success to fool bot)
             console.log('Bot detected via honeypot:', body.email);
             return NextResponse.json({ success: true, message: 'Lead captured successfully' });
         }
 
-        // 2. Referer Check (Optional but good)
+        // Referer Check (Optional)
         const referer = request.headers.get('referer');
-        const origin = request.headers.get('origin');
-        const host = request.headers.get('host'); // e.g. localhost:3000
-
-        // Ensure request is coming from our own domain (or local for dev)
-        // Adjust logic if you expect external API calls
+        const host = request.headers.get('host');
         if (referer && !referer.includes(host || 'rwfhomeimprovements')) {
             console.log('Suspicious referer:', referer);
-            // Verify this isn't too strict for your deployment environment
-            // return NextResponse.json({ error: 'Unauthorized source' }, { status: 403 });
         }
 
-        // Create new lead object
-        const newLead: LeadData = {
-            id: crypto.randomUUID(),
-            submittedAt: new Date().toISOString(),
-            firstName: body.firstName,
-            lastName: body.lastName,
-            email: body.email,
-            phone: body.phone,
-            address: body.address,
-            projectDetails: {
+        // UPSERT LEAD using Email as unique key
+        // Map nested JSON fields to Flat DB Schema
+        const lead = await prisma.lead.upsert({
+            where: { email: body.email },
+            update: {
+                firstName: body.firstName,
+                lastName: body.lastName,
+                phone: body.phone,
+                address: body.address,
                 fenceType: body.fenceType,
                 fenceGrade: body.fenceGrade,
                 fenceStyle: body.fenceStyle,
                 fenceHeight: body.fenceHeight,
-                linearFootage: body.linearFootage,
+                linearFootage: parseFloat(body.linearFootage),
                 gates: body.gates || { single: 0, double: 0 },
-                estimatedPrice: body.estimatedPrice || { min: 0, max: 0 }
+                estimatedPriceMin: body.estimatedPrice?.min || 0,
+                estimatedPriceMax: body.estimatedPrice?.max || 0,
+                intent: body.intent || 'pricing_view',
+                status: 'new' // Reset status on new submission? Or keep? Let's just update info.
             },
-            intent: body.intent || 'pricing_view'
-        };
-
-        // Read existing leads
-        let leads: LeadData[] = [];
-        if (fs.existsSync(leadsFilePath)) {
-            const fileContent = fs.readFileSync(leadsFilePath, 'utf8');
-            try {
-                leads = JSON.parse(fileContent);
-            } catch (e) {
-                console.error('Error parsing leads.json', e);
+            create: {
+                firstName: body.firstName,
+                lastName: body.lastName,
+                email: body.email,
+                phone: body.phone,
+                address: body.address,
+                fenceType: body.fenceType,
+                fenceGrade: body.fenceGrade,
+                fenceStyle: body.fenceStyle,
+                fenceHeight: body.fenceHeight,
+                linearFootage: parseFloat(body.linearFootage),
+                gates: body.gates || { single: 0, double: 0 },
+                estimatedPriceMin: body.estimatedPrice?.min || 0,
+                estimatedPriceMax: body.estimatedPrice?.max || 0,
+                intent: body.intent || 'pricing_view',
+                source: 'quote_wizard',
+                status: 'new'
             }
-        }
+        });
 
-        // Check for existing lead with same email
-        const existingLeadIndex = leads.findIndex(l => l.email === newLead.email);
-
-        if (existingLeadIndex !== -1) {
-            // Update existing lead (UPSERT)
-            // We preserve the original ID but update all details including intent
-            leads[existingLeadIndex] = {
-                ...newLead,
-                id: leads[existingLeadIndex].id, // Keep original ID
-                // If upgrading from pricing_view to consultation_request, this effectively "moves" them down funnel
-            };
-        } else {
-            // Add new lead
-            leads.push(newLead);
-        }
-
-        // Save back to file
-        fs.writeFileSync(leadsFilePath, JSON.stringify(leads, null, 2));
-
-        return NextResponse.json({ success: true, message: 'Lead captured successfully', leadId: newLead.id });
+        return NextResponse.json({ success: true, message: 'Lead captured successfully', leadId: lead.id });
 
     } catch (error) {
         console.error('Error processing lead:', error);
@@ -124,12 +73,36 @@ export async function POST(request: Request) {
 
 export async function GET() {
     try {
-        if (fs.existsSync(leadsFilePath)) {
-            const fileContent = fs.readFileSync(leadsFilePath, 'utf8');
-            const leads = JSON.parse(fileContent);
-            return NextResponse.json(leads);
-        }
-        return NextResponse.json([]);
+        const leads = await prisma.lead.findMany({
+            orderBy: { createdAt: 'desc' }
+        });
+
+        // Transform DB flat structure back to Nested JSON for Frontend compatibility
+        const transformedLeads = leads.map(lead => ({
+            id: lead.id.toString(),
+            submittedAt: lead.createdAt.toISOString(),
+            firstName: lead.firstName,
+            lastName: lead.lastName,
+            email: lead.email,
+            phone: lead.phone,
+            address: lead.address,
+            projectDetails: {
+                fenceType: lead.fenceType,
+                fenceGrade: lead.fenceGrade,
+                fenceStyle: lead.fenceStyle,
+                fenceHeight: lead.fenceHeight,
+                linearFootage: lead.linearFootage,
+                gates: lead.gates || { single: 0, double: 0 },
+                estimatedPrice: {
+                    min: lead.estimatedPriceMin,
+                    max: lead.estimatedPriceMax
+                }
+            },
+            intent: lead.intent,
+            status: lead.status
+        }));
+
+        return NextResponse.json(transformedLeads);
     } catch (error) {
         console.error('Error reading leads:', error);
         return NextResponse.json({ error: 'Failed to fetch leads' }, { status: 500 });

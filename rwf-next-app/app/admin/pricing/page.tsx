@@ -1,19 +1,28 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Save, AlertCircle, Check, Loader2, ArrowRight } from 'lucide-react';
+import { Save, AlertCircle, Check, Loader2, ArrowRight, LogOut } from 'lucide-react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import styles from './pricing.module.css';
+
+interface PricingData {
+    id?: number;
+    name?: string;
+    fences: Record<string, Record<string, Record<string, number>>>;
+    gates: { single: number; double: number };
+    options?: { commercial_multiplier: number };
+}
 
 export default function PricingAdmin() {
+    const router = useRouter();
     const [loading, setLoading] = useState(true);
     const [saving, setSaving] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [success, setSuccess] = useState(false);
+    const [activeTab, setActiveTab] = useState('Wood');
 
-    const [pricing, setPricing] = useState<{
-        fences: Record<string, number>;
-        gates: { single: number; double: number };
-    } | null>(null);
+    const [pricing, setPricing] = useState<PricingData | null>(null);
 
     useEffect(() => {
         fetchPricing();
@@ -32,13 +41,19 @@ export default function PricingAdmin() {
         }
     };
 
-    const handleFenceChange = (type: string, value: string) => {
+    const handleMatrixChange = (material: string, style: string, height: string, value: string) => {
         if (!pricing) return;
         setPricing({
             ...pricing,
             fences: {
                 ...pricing.fences,
-                [type]: parseFloat(value) || 0
+                [material]: {
+                    ...pricing.fences[material],
+                    [style]: {
+                        ...pricing.fences[material]?.[style],
+                        [height]: parseFloat(value) || 0
+                    }
+                }
             }
         });
     };
@@ -51,6 +66,17 @@ export default function PricingAdmin() {
                 ...pricing.gates,
                 [type]: parseFloat(value) || 0
             }
+        });
+    };
+
+    const handleOptionChange = (key: string, value: string) => {
+        if (!pricing) return;
+        setPricing({
+            ...pricing,
+            options: {
+                ...(pricing.options || { commercial_multiplier: 1.3 }),
+                [key]: parseFloat(value) || 0
+            } as { commercial_multiplier: number }
         });
     };
 
@@ -79,89 +105,153 @@ export default function PricingAdmin() {
     };
 
     if (loading) return <div className="flex justify-center p-20"><Loader2 className="animate-spin" /></div>;
-    if (!pricing) return <div className="text-red-500 p-20">Error loading data</div>;
+    // Handle case where pricing might be null or valid but empty fences (initial load edge case)
+    if (!pricing || !pricing.fences) return <div className="text-red-500 p-20">Error loading data. Try refreshing.</div>;
 
     return (
         <div className="min-h-screen bg-gray-50 p-8">
-            <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="flex justify-between items-center mb-8">
+            <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className={styles.headerContainer}>
                     <div>
-                        <h1 className="text-3xl font-bold text-gray-900">Pricing Management</h1>
-                        <p className="text-gray-500">Adjust base material and gate prices for the quote calculator.</p>
+                        <h1 className={styles.headerTitle}>Pricing Management</h1>
+                        <p className="text-sm text-gray-500">Configure detailed pricing for every material variation.</p>
                     </div>
-                    <div className="flex gap-4">
+                    <div className={styles.headerActions}>
+                        <button
+                            onClick={async () => {
+                                await fetch('/api/auth/logout', { method: 'POST' });
+                                router.push('/admin/login');
+                            }}
+                            className="bg-gray-100 text-gray-600 border border-gray-200 px-4 py-2 rounded-lg hover:bg-gray-200 hover:text-gray-900 flex items-center justify-center gap-2 text-sm transition-colors w-full sm:w-auto"
+                        >
+                            <LogOut size={16} /> Logout
+                        </button>
                         <Link
                             href="/admin/leads"
-                            className="bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 flex items-center gap-2"
+                            className="bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 flex items-center justify-center gap-2 text-sm transition-colors w-full sm:w-auto"
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 0 0 0-4-4H6a4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 0 0 0-3-3.87" /><path d="M16 3.13a4 0 0 1 0 7.75" /></svg>
                             View Leads
                         </Link>
-                        <Link href="/quote" className="text-[#d4af37] hover:underline flex items-center gap-1 font-medium">
-                            Open Calculator <ArrowRight size={16} />
+                        <Link
+                            href="/quote"
+                            target="_blank"
+                            className="bg-[#d4af37] text-white px-4 py-2 rounded-lg hover:bg-[#b5952f] flex items-center justify-center gap-2 text-sm font-bold shadow-sm transition-all hover:shadow-md w-full sm:w-auto"
+                        >
+                            Open Quote Sheet <ArrowRight size={16} />
                         </Link>
                     </div>
                 </div>
 
-                <div className="p-8 space-y-8">
+                <div className="p-4 md:p-8 space-y-6 md:space-y-8">
                     {/* Error/Success Messages */}
                     {error && (
-                        <div className="bg-red-50 text-red-600 p-4 rounded-lg flex items-center gap-2">
+                        <div className="bg-red-50 text-red-600 p-3 md:p-4 rounded-lg flex items-center gap-2 animate-in fade-in text-sm md:text-base">
                             <AlertCircle size={20} /> {error}
                         </div>
                     )}
                     {success && (
-                        <div className="bg-green-50 text-green-600 p-4 rounded-lg flex items-center gap-2">
+                        <div className="bg-green-50 text-green-600 p-3 md:p-4 rounded-lg flex items-center gap-2 animate-in fade-in text-sm md:text-base">
                             <Check size={20} /> Settings saved successfully!
                         </div>
                     )}
 
-                    {/* Fence Pricing */}
+                    {/* Material TABS */}
                     <div>
-                        <h2 className="text-xl font-bold text-gray-800 mb-4 border-b pb-2">Fence Material Rates (per ft)</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {Object.entries(pricing.fences).map(([type, price]) => (
-                                <div key={type} className="flex flex-col">
-                                    <label className="text-sm font-medium text-gray-700 mb-1">{type}</label>
-                                    <div className="relative">
-                                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500">$</span>
+                        <nav className="flex flex-wrap gap-2 md:gap-3" aria-label="Tabs">
+                            {Object.keys(pricing.fences).map((material) => (
+                                <button
+                                    key={material}
+                                    onClick={() => setActiveTab(material)}
+                                    className={`${activeTab === material
+                                        ? 'bg-[#1e293b] text-white shadow-md transform scale-105'
+                                        : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
+                                        } whitespace-nowrap py-2 px-4 md:py-3 md:px-6 rounded-lg md:rounded-xl font-bold text-xs md:text-sm capitalize transition-all duration-200`}
+                                >
+                                    {material}
+                                </button>
+                            ))}
+                        </nav>
+                    </div>
+
+                    {/* Pricing Matrix for Active Tab */}
+                    {pricing.fences[activeTab] && (
+                        <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
+                            <h3 className="text-xl font-bold text-gray-800 mb-6 capitalize">{activeTab} Pricing Configuration</h3>
+
+                            <div className="space-y-8">
+                                {Object.entries(pricing.fences[activeTab]).map(([style, heights]: [string, any]) => (
+                                    <div key={style} className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                                        <h4 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">{style}</h4>
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+                                            {Object.entries(heights).map(([height, price]: [string, any]) => (
+                                                <div key={height} className="flex flex-col">
+                                                    <label className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">{height}</label>
+                                                    <div className={styles.currencyWrapper}>
+                                                        <span className={styles.currencySymbol}>$</span>
+                                                        <input
+                                                            type="number"
+                                                            value={price}
+                                                            onChange={(e) => handleMatrixChange(activeTab, style, height, e.target.value)}
+                                                            className={styles.currencyInput}
+                                                            aria-label={`Price for ${style} ${height}`}
+                                                        />
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Global Settings (Gates & Multipliers) */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 border-t">
+                        <div>
+                            <h3 className="text-lg font-bold text-gray-900 mb-4">Gate Fees</h3>
+                            <div className="space-y-4">
+                                <div className="flex flex-col">
+                                    <label className="text-sm font-medium text-gray-700 mb-2">Single Gate Base</label>
+                                    <div className={styles.currencyWrapper}>
+                                        <span className={styles.currencySymbol}>$</span>
                                         <input
                                             type="number"
-                                            value={price}
-                                            onChange={(e) => handleFenceChange(type, e.target.value)}
-                                            className="w-full pl-8 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d4af37] focus:border-transparent"
+                                            value={pricing.gates.single}
+                                            onChange={(e) => handleGateChange('single', e.target.value)}
+                                            className={styles.currencyInput}
+                                            aria-label="Single Gate Price"
                                         />
                                     </div>
                                 </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* Gate Pricing */}
-                    <div>
-                        <h2 className="text-xl font-bold text-gray-800 mb-4 border-b pb-2">Gate Logic fees</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="flex flex-col">
-                                <label className="text-sm font-medium text-gray-700 mb-1">Single Gate (approx 4ft)</label>
-                                <div className="relative">
-                                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500">$</span>
-                                    <input
-                                        type="number"
-                                        value={pricing.gates.single}
-                                        onChange={(e) => handleGateChange('single', e.target.value)}
-                                        className="w-full pl-8 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d4af37] focus:border-transparent"
-                                    />
+                                <div className="flex flex-col">
+                                    <label className="text-sm font-medium text-gray-700 mb-2">Double Gate Base</label>
+                                    <div className={styles.currencyWrapper}>
+                                        <span className={styles.currencySymbol}>$</span>
+                                        <input
+                                            type="number"
+                                            value={pricing.gates.double}
+                                            onChange={(e) => handleGateChange('double', e.target.value)}
+                                            className={styles.currencyInput}
+                                            aria-label="Double Gate Price"
+                                        />
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div>
+                            <h3 className="text-lg font-bold text-gray-900 mb-4">Global Multipliers</h3>
                             <div className="flex flex-col">
-                                <label className="text-sm font-medium text-gray-700 mb-1">Double Gate (approx 10ft)</label>
-                                <div className="relative">
-                                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500">$</span>
+                                <label className="text-sm font-medium text-gray-700 mb-2">Commercial Grade Multiplier (e.g. 1.3 = 30% markup)</label>
+                                <div className={styles.currencyWrapper}>
+                                    <span className={styles.currencySymbol}>x</span>
                                     <input
                                         type="number"
-                                        value={pricing.gates.double}
-                                        onChange={(e) => handleGateChange('double', e.target.value)}
-                                        className="w-full pl-8 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d4af37] focus:border-transparent"
+                                        step="0.1"
+                                        value={pricing?.options?.commercial_multiplier || 1.3}
+                                        onChange={(e) => handleOptionChange('commercial_multiplier', e.target.value)}
+                                        className={styles.currencyInput}
+                                        aria-label="Commercial Grade Multiplier"
                                     />
                                 </div>
                             </div>
