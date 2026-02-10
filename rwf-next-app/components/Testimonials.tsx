@@ -2,8 +2,8 @@ import styles from './Testimonials.module.css';
 
 
 interface Review {
-    name: string;
-    review: string; // Changed from 'text' to 'review' to match JSON
+    author: string;
+    text: string;
     title?: string;
     rating?: number;
     location?: string;
@@ -23,9 +23,9 @@ export default function Testimonials({ title = "Our Customers Say It Best", revi
                     {reviews.map((review, index) => (
                         <div key={index} className={styles.card}>
                             <div className={styles.stars}>{"★".repeat(review.rating || 5)}</div>
-                            <h3 className={styles.name}>{review.name}</h3>
+                            <h3 className={styles.name}>{review.author}</h3>
                             {review.title && <h4 className={styles.title}>{review.title}</h4>}
-                            <p className={styles.text}>"{review.review}"</p>
+                            <p className={styles.text}>"{review.text}"</p>
                         </div>
                     ))}
                 </div>

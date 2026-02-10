@@ -8,19 +8,45 @@
   "processTitle": "Our Deck Installation Process",
   "processSteps": [
     {
+      "stepNumber": 1,
       "title": "Design Consultation",
       "description": "We start with a personalized consultation to understand your vision, referencing your home's architecture and your specific needs for outdoor living.",
-      "image": "/images/deck-assets/multi-level-deck-design.jpg"
+      "image": "/images/multi-level-deck-design.jpg"
     },
     {
+      "stepNumber": 2,
       "title": "Material Selection",
       "description": "Choose from premium pressure-treated wood, cedar, or low-maintenance composite materials to find the perfect match for your style and budget.",
       "image": "/images/wood-decking-sample.jpg"
     },
     {
+      "stepNumber": 3,
       "title": "Expert Construction",
       "description": "Our skilled craftsmen build your deck with precision, ensuring a safe, durable, and beautiful structure that stands the test of time.",
       "image": "/images/custom-deck-construction-fayetteville.jpg"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Seal & Enjoy",
+      "description": "We ensure your deck is properly finished and ready for years of BBQs and relaxation.",
+      "image": "/images/deck-installation-hero.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Robert Rose",
+      "text": "The crew built us a beautiful deck that has become our favorite place to relax. RWF understood our vision and brought it to life perfectly.",
+      "rating": 5
+    },
+    {
+      "author": "Michael S.",
+      "text": "Excellent craftsmanship on our multi-level deck. The team was respectful of our property and finished on time.",
+      "rating": 5
+    },
+    {
+      "author": "Jessica P.",
+      "text": "We upgraded to composite decking with RWF and couldn't be happier. Low maintenance and looks amazing!",
+      "rating": 5
     }
   ],
   "serviceOptionsTitle": "Types of Decks We Build",

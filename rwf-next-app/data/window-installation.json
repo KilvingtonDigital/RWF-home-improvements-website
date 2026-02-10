@@ -15,24 +15,45 @@
   "processTitle": "Our Window Installation Process: From Consultation to Completion",
   "processSteps": [
     {
+      "stepNumber": 1,
       "title": "Initial Consultation",
       "description": "We start with a detailed consultation to assess your needs, style preferences, and budget, helping you select windows that enhance your home’s energy efficiency and aesthetics.",
       "image": "/images/design-consultation-samples.jpg"
     },
     {
+      "stepNumber": 2,
       "title": "Customized Window Selection",
       "description": "With a variety of high-quality window options available, including vinyl, wood, fiberglass, and energy-efficient glass, we guide you through selecting the best choices for your home.",
-      "image": "/images/casement-window-fayetteville.jpg"
+      "image": "/images/window-replacement-fayetteville.jpg"
     },
     {
+      "stepNumber": 3,
       "title": "Professional Installation",
       "description": "Our experienced installers handle each window with precision, ensuring a tight, secure fit that maximizes insulation and weather resistance.",
       "image": "/images/custom-window-installation-service-fayetteville.jpg"
     },
     {
+      "stepNumber": 4,
       "title": "Post-Installation Inspection",
       "description": "Once the installation is complete, we conduct a thorough inspection to confirm every window meets our high standards for quality and functionality.",
-      "image": "/images/fayetteville-fence-installation-quality-inspection.jpg"
+      "image": "/images/satisfied-window-customers.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Emily R.",
+      "text": "Our new energy-efficient windows have made such a difference in our utility bill! RWF was fantastic to work with.",
+      "rating": 5
+    },
+    {
+      "author": "Mark S.",
+      "text": "Very clean installation. No mess left behind, and the windows look great inside and out.",
+      "rating": 5
+    },
+    {
+      "author": "Jessica W.",
+      "text": "Honest advice on which windows to choose. We didn't feel pressured, just informed.",
+      "rating": 5
     }
   ],
   "serviceOptionsTitle": "Types of Windows We Offer",

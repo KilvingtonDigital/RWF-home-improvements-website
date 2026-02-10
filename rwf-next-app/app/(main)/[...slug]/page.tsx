@@ -84,23 +84,18 @@ export default async function DynamicPage({ params }: PageProps) {
                 />
             )}
 
-            {data.content && data.content.trim().length > 0 && (
-                <div className="container">
-                    <article className={styles.content}>
-                        <ReactMarkdown
-                            remarkPlugins={[remarkGfm]}
-                            rehypePlugins={[rehypeRaw]}
-                            components={{
-                                img: ({ node, ...props }) => (
-                                    <img {...props} />
-                                ),
-                                p: ({ node, ...props }) => <div {...props} className={styles.paragraph} />,
-                            }}
-                        >
-                            {data.content}
-                        </ReactMarkdown>
-                    </article>
-                </div>
+
+
+
+            {data.serviceOptions && (
+                <section className="container py-5">
+                    {data.serviceOptionsTitle && (
+                        <h2 className={styles.sectionTitle}>
+                            {data.serviceOptionsTitle}
+                        </h2>
+                    )}
+                    <ServiceGrid services={data.serviceOptions} />
+                </section>
             )}
 
             {data.benefits && (
@@ -112,14 +107,24 @@ export default async function DynamicPage({ params }: PageProps) {
                 />
             )}
 
-            {data.serviceOptions && (
-                <section className="container py-5">
-                    {data.serviceOptionsTitle && (
-                        <h2 className={styles.sectionTitle}>
-                            {data.serviceOptionsTitle}
-                        </h2>
-                    )}
-                    <ServiceGrid services={data.serviceOptions} />
+            {data.content && data.content.trim().length > 0 && (
+                <section className={styles.seoSection}>
+                    <div className="container">
+                        <article className={styles.content}>
+                            <ReactMarkdown
+                                remarkPlugins={[remarkGfm]}
+                                rehypePlugins={[rehypeRaw]}
+                                components={{
+                                    img: ({ node, ...props }) => (
+                                        <img {...props} />
+                                    ),
+                                    p: ({ node, ...props }) => <div {...props} className={styles.paragraph} />,
+                                }}
+                            >
+                                {data.content}
+                            </ReactMarkdown>
+                        </article>
+                    </div>
                 </section>
             )}
 

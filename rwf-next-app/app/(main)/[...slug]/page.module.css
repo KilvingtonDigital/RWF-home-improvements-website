@@ -10,10 +10,19 @@
     max-width: 900px;
 }
 
+.seoSection {
+    background-color: #f8f9fa;
+    /* Light gray background to separate it */
+    padding: 4rem 0;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    margin-top: 2rem;
+}
+
 .content {
     max-width: 800px;
-    margin: 4rem auto 4rem;
-    /* Increased vertical spacing */
+    margin: 0 auto;
+    /* Reset margins since parent has padding */
     color: var(--text-secondary);
 }
 

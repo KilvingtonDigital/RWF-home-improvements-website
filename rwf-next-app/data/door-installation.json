@@ -60,24 +60,45 @@
   "processTitle": "Our Door Installation Process: Quality from Start to Finish",
   "processSteps": [
     {
+      "stepNumber": 1,
       "title": "Consultation & Selection",
       "description": "We begin with a detailed consultation to understand your needs, preferences, and budget. Our team will guide you through various door options, considering factors like energy efficiency, durability, and style.",
-      "image": "/images/design-consultation-samples.jpg"
+      "image": "/images/door-installation-service-area.jpg"
     },
     {
+      "stepNumber": 2,
       "title": "Precise Measurements & Customization",
       "description": "Each door installation is custom-fitted to your home. We take exact measurements to ensure a perfect fit, whether you’re replacing a single door or upgrading multiple entrances.",
       "image": "/images/custom-entry-door-installation-wood-fiberglass-steel.jpg"
     },
     {
+      "stepNumber": 3,
       "title": "Professional Installation",
       "description": "Our certified installers bring expertise and attention to detail, ensuring your new door is securely mounted, aligned, and sealed to prevent drafts.",
       "image": "/images/professional-door-installation-fayetteville.jpg"
     },
     {
-      "title": "Quality Assurance & Maintenance Tips",
-      "description": "After installation, we perform a thorough inspection to verify quality. We also provide guidance on maintaining your new door to ensure it looks great and operates smoothly for years to come.",
-      "image": "/images/fayetteville-fence-installation-quality-inspection.jpg"
+      "stepNumber": 4,
+      "title": "Quality Assurance",
+      "description": "After installation, we perform a thorough inspection to verify quality. We also provide guidance on maintaining your new door.",
+      "image": "/images/modern-front-door-security-energy-efficiency.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Brian H.",
+      "text": "Our new front door is beautiful and feels so much more secure. RWF got the job done in one day.",
+      "rating": 5
+    },
+    {
+      "author": "Karen D.",
+      "text": "The sliding glass door they installed glides perfectly. Huge improvement over our old one.",
+      "rating": 5
+    },
+    {
+      "author": "Tom B.",
+      "text": "Great selection of fiberglass doors. We found exactly the color we wanted.",
+      "rating": 5
     }
   ],
   "ctaTitle": "Upgrade Your Home with New Doors Today",

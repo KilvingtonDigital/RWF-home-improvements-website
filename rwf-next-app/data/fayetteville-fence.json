@@ -1,6 +1,6 @@
 {
   "title": "Fence Installation Fayetteville, NC | Wood, Vinyl & Aluminum | RWF",
-  "description": "Top-rated fence installation in Fayetteville, NC. Wood, vinyl, aluminum, and chain link fencing by RWF Home Improvements. Free estimates.",
+  "description": "Top-rated fence installation in Fayetteville, NC. Wood, vinyl, aluminum, and chain link fencing by RWF Home Improvements. Free estimates, lifetime gate warranty.",
   "keywords": "fence installation fayetteville nc, wood fencing, vinyl fencing, aluminum fence, privacy fence, chain link fence, fence repair, rwf home improvements",
   "ogImage": "/images/fayetteville-fence-hero-dog-eared.jpg",
   "heroImage": "/images/fayetteville-fence-hero-dog-eared.jpg",
@@ -62,6 +62,50 @@
     {
       "title": "Lifetime Wood Gate Warranty",
       "description": "We stand by the quality of our work. That’s why we offer a lifetime warranty on wood gates, giving you peace of mind and confidence."
+    }
+  ],
+  "processTitle": "Our Simple 4-Step Process",
+  "processSteps": [
+    {
+      "stepNumber": 1,
+      "title": "Free Consultation",
+      "description": "We meet to discuss your goals, measure your property, and provide a transparent estimate.",
+      "image": "/images/fence-consultation-site-prep.jpg"
+    },
+    {
+      "stepNumber": 2,
+      "title": "Material & Design",
+      "description": "Choose from our wide selection of Wood, Vinyl, or Aluminum styles to match your home.",
+      "image": "/images/high-quality-fence-materials-wood-vinyl-aluminum.jpg"
+    },
+    {
+      "stepNumber": 3,
+      "title": "Permit & Install",
+      "description": "We help navigate HOA/Permit requirements and schedule our expert team for installation.",
+      "image": "/images/precision-fence-post-installation.jpg"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Final Walkthrough",
+      "description": "We inspect the fence with you to ensure every detail meets our high standards before leaving.",
+      "image": "/images/final-fence-inspection-fayetteville.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "author": "LaSarah Richardson",
+      "text": "A year later, our fence is still standing strong with no issues. Richard and Hayley were so patient answering all my questions. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "author": "Sarah W.",
+      "text": "So happy with our new privacy fence! The team was professional, efficient, and great to work with. They transformed our backyard.",
+      "rating": 5
+    },
+    {
+      "author": "Annette Lewis",
+      "text": "Professional and efficient service on our privacy fence installation. We are very pleased with the quality and the price.",
+      "rating": 5
     }
   ],
   "faqs": [
