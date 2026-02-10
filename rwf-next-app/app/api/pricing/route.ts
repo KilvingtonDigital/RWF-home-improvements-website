@@ -46,10 +46,10 @@ export async function GET() {
 
         // Migration Check: Detect if we are missing the new '5 ft' options
         // This heuristic checks if Wood -> Privacy has '5 ft'. If not, we re-seed to get the new defaults.
-        const needsMigration = pricing?.fences?.['Wood']?.['Privacy']?.['5 ft'] === undefined;
+        const needsMigration = (pricing?.fences as any)?.['Wood']?.['Privacy']?.['5 ft'] === undefined;
 
         // Initialize with default if missing, or if structure is old (simple number values), or migration needed
-        if (!pricing || (pricing.fences && typeof Object.values(pricing.fences)[0] === 'number') || needsMigration) {
+        if (!pricing || (pricing.fences && typeof Object.values(pricing.fences as any)[0] === 'number') || needsMigration) {
             console.log('Seeding or migrating pricing data...');
 
             // Delete old valid if it exists but is wrong shape or missing keys
