@@ -68,9 +68,12 @@ export async function GET() {
         }
 
         return NextResponse.json(pricing);
-    } catch (error) {
+    } catch (error: any) {
         console.error('Error fetching pricing:', error);
-        return NextResponse.json({ error: 'Failed to fetch pricing' }, { status: 500 });
+        return NextResponse.json({
+            error: 'Failed to fetch pricing',
+            details: error instanceof Error ? error.message : String(error)
+        }, { status: 500 });
     }
 }
 
@@ -100,8 +103,11 @@ export async function POST(request: Request) {
         });
 
         return NextResponse.json({ success: true, message: 'Pricing updated', data: pricing });
-    } catch (error) {
+    } catch (error: any) {
         console.error('Error updating pricing:', error);
-        return NextResponse.json({ error: 'Failed to update pricing' }, { status: 500 });
+        return NextResponse.json({
+            error: 'Failed to update pricing',
+            details: error instanceof Error ? error.message : String(error)
+        }, { status: 500 });
     }
 }
