@@ -4,13 +4,16 @@ import { cookies } from 'next/headers';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'default-dev-secret-do-not-use-in-prod';
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
+const OFFICE_ADMIN_PASSWORD = process.env.OFFICE_ADMIN_PASSWORD;
 
 export async function POST(request: Request) {
     try {
         const body = await request.json();
         const { password } = body;
 
-        if (password !== ADMIN_PASSWORD) {
+        const isValid = password === ADMIN_PASSWORD || (OFFICE_ADMIN_PASSWORD && password === OFFICE_ADMIN_PASSWORD);
+
+        if (!isValid) {
             return NextResponse.json({ error: 'Invalid password' }, { status: 401 });
         }
 
