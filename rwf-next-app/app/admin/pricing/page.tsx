@@ -31,11 +31,17 @@ export default function PricingAdmin() {
     const fetchPricing = async () => {
         try {
             const res = await fetch('/api/pricing');
-            if (!res.ok) throw new Error('Failed to fetch pricing');
-            const data = await res.json();
+            const data = await res.json().catch(() => null); // Handle non-JSON response gracefully
+
+            if (!res.ok) {
+                const errorMessage = data?.details || data?.error || 'Failed to fetch pricing';
+                throw new Error(errorMessage);
+            }
+
             setPricing(data);
-        } catch (err) {
-            setError('Could not load pricing data.');
+        } catch (err: any) {
+            console.error(err);
+            setError(err.message || 'Could not load pricing data.');
         } finally {
             setLoading(false);
         }
@@ -93,12 +99,17 @@ export default function PricingAdmin() {
                 body: JSON.stringify(pricing),
             });
 
-            if (!res.ok) throw new Error('Failed to save');
+            const data = await res.json().catch(() => null);
+
+            if (!res.ok) {
+                const errorMessage = data?.details || data?.error || 'Failed to save';
+                throw new Error(errorMessage);
+            }
 
             setSuccess(true);
             setTimeout(() => setSuccess(false), 3000);
-        } catch (err) {
-            setError('Failed to save changes.');
+        } catch (err: any) {
+            setError(err.message || 'Failed to save changes.');
         } finally {
             setSaving(false);
         }
@@ -106,7 +117,15 @@ export default function PricingAdmin() {
 
     if (loading) return <div className="flex justify-center p-20"><Loader2 className="animate-spin" /></div>;
     // Handle case where pricing might be null or valid but empty fences (initial load edge case)
-    if (!pricing || !pricing.fences) return <div className="text-red-500 p-20">Error loading data. Try refreshing.</div>;
+    if (!pricing || !pricing.fences) {
+        return (
+            <div className="flex flex-col items-center justify-center p-20 text-red-600 gap-4">
+                <AlertCircle size={48} />
+                <h2 className="text-xl font-bold">Error Loading Data</h2>
+                <p className="text-center font-mono bg-red-50 p-4 rounded-lg border border-red-200">{error || 'Unknown error occurred. Try refreshing.'}</p>
+            </div>
+        );
+    }
 
     return (
         <div className="min-h-screen bg-gray-50 p-8">
