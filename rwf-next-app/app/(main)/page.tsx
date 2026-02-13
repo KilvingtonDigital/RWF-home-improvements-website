@@ -75,7 +75,7 @@ export default async function Home() {
         backgroundImage="/images/expert-fence-installation-fayetteville-nc.png"
         title={title}
         subtitle={subtitle}
-        ctaLink="https://rwfhomeimprovements.mybudgetquote.com/budget"
+        ctaLink="/quote"
         ctaText="Get Instant Quote"
       />
 

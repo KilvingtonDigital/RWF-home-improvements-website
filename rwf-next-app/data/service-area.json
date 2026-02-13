@@ -176,7 +176,7 @@
   "links": [
     {
       "text": "Instant Quote",
-      "href": "https://rwfhomeimprovements.mybudgetquote.com/budget"
+      "href": "/quote"
     },
     {
       "text": "Fence",
@@ -340,7 +340,7 @@
     },
     {
       "text": "Get a free estimate!",
-      "href": "https://rwfhomeimprovements.mybudgetquote.com/budget"
+      "href": "/quote"
     },
     {
       "text": "Click here",

@@ -14,7 +14,7 @@ Menu
     
     Instant Quote
     
-    ](https://rwfhomeimprovements.mybudgetquote.com/budget)
+    ](/quote)
     
 *   [
     
@@ -274,7 +274,7 @@ try { window.requestAnimationFrame(function() { setTimeout(() => { var ele = doc
 
 © 2025 by [Kilvington Digital Marketing](https://www.kilvingtondigitalmarketing.com/)
 
-*   [Instant Quote](https://rwfhomeimprovements.mybudgetquote.com/budget)
+*   [Instant Quote](/quote)
     
 *   [Fence](https://www.rwfhomeimprovements.com/fayetteville-fence)
     
@@ -325,7 +325,7 @@ try { window.requestAnimationFrame(function() { setTimeout(() => { var ele = doc
 
 Close
 
-*   [Instant Quote](https://rwfhomeimprovements.mybudgetquote.com/budget)
+*   [Instant Quote](/quote)
     
 *   [Fence](https://www.rwfhomeimprovements.com/fayetteville-fence)
     

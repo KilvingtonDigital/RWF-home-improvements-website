@@ -14,7 +14,7 @@ Menu
     
     Instant Quote
     
-    ](https://rwfhomeimprovements.mybudgetquote.com/budget)
+    ](/quote)
     
 *   [
     
@@ -171,7 +171,7 @@ Check out some of the other great posts in this blog.
 
 © 2025 by [Kilvington Digital Marketing](https://www.kilvingtondigitalmarketing.com/)
 
-*   [Instant Quote](https://rwfhomeimprovements.mybudgetquote.com/budget)
+*   [Instant Quote](/quote)
     
 *   [Fence](https://www.rwfhomeimprovements.com/fayetteville-fence)
     
@@ -222,7 +222,7 @@ Check out some of the other great posts in this blog.
 
 Close
 
-*   [Instant Quote](https://rwfhomeimprovements.mybudgetquote.com/budget)
+*   [Instant Quote](/quote)
     
 *   [Fence](https://www.rwfhomeimprovements.com/fayetteville-fence)
     

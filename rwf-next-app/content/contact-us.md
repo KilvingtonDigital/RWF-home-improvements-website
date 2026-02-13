@@ -14,7 +14,7 @@ Menu
     
     Instant Quote
     
-    ](https://rwfhomeimprovements.mybudgetquote.com/budget)
+    ](/quote)
     
 *   [
     
