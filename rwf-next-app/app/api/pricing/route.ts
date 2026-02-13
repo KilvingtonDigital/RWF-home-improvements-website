@@ -48,6 +48,14 @@ export async function GET() {
         // This heuristic checks if Wood -> Privacy has '5 ft'. If not, we re-seed to get the new defaults.
         const needsMigration = (pricing?.fences as any)?.['Wood']?.['Privacy']?.['5 ft'] === undefined;
 
+        // Resolve Organization (fix for FK constraint)
+        let org = await prisma.organization.findFirst();
+        if (!org) {
+            org = await prisma.organization.create({
+                data: { name: 'RWF Home Improvements' }
+            });
+        }
+
         // Initialize with default if missing, or if structure is old (simple number values), or migration needed
         if (!pricing || (pricing.fences && typeof Object.values(pricing.fences as any)[0] === 'number') || needsMigration) {
             console.log('Seeding or migrating pricing data...');
@@ -60,7 +68,7 @@ export async function GET() {
             pricing = await prisma.pricing.create({
                 data: {
                     name: 'default',
-                    organizationId: 1,
+                    organizationId: org.id,
                     fences: DEFAULT_PRICING.fences,
                     gates: DEFAULT_PRICING.gates,
                     // We might need to add 'options' to the schema if strict, but JSON field allows flexible data
@@ -87,6 +95,14 @@ export async function POST(request: Request) {
             return NextResponse.json({ error: 'Invalid data structure' }, { status: 400 });
         }
 
+        // Ensure Organization exists for FK constraint
+        let org = await prisma.organization.findFirst();
+        if (!org) {
+            org = await prisma.organization.create({
+                data: { name: 'RWF Home Improvements' }
+            });
+        }
+
         const pricing = await prisma.pricing.upsert({
             where: { name: 'default' },
             update: {
@@ -98,7 +114,7 @@ export async function POST(request: Request) {
             },
             create: {
                 name: 'default',
-                organizationId: 1,
+                organizationId: org.id,
                 fences: body.fences,
                 gates: body.gates
             }
