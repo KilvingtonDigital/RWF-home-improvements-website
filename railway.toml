@@ -1,0 +1,5 @@
+[common]
+rootDirectory = "rwf-next-app"
+
+[build]
+watchPatterns = ["rwf-next-app/**"]
