@@ -129,8 +129,8 @@ export default function MaterialSelect() {
             const commercialMult = pricing?.options?.commercial_multiplier || 1.3;
             if (formData.fenceGrade === 'Commercial') basePrice *= commercialMult;
 
-            const singleGatePrice = pricing?.gates.single || 300;
-            const doubleGatePrice = pricing?.gates.double || 500;
+            const singleGatePrice = pricing?.gates?.single || 300;
+            const doubleGatePrice = pricing?.gates?.double || 500;
 
             const singleGates = formData.gateMarkers?.filter(g => g.type === 'single').length || 0;
             const doubleGates = formData.gateMarkers?.filter(g => g.type === 'double').length || 0;

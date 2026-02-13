@@ -21,9 +21,9 @@ export default function QuoteSummary() {
     }, []);
 
     // Default Fallback
-    const basePrice = pricing?.fences[formData.fenceType || 'Wood'] || 25;
-    const singleGatePrice = pricing?.gates.single || 300;
-    const doubleGatePrice = pricing?.gates.double || 500;
+    const basePrice = pricing?.fences?.[formData.fenceType || 'Wood'] || 25;
+    const singleGatePrice = pricing?.gates?.single || 300;
+    const doubleGatePrice = pricing?.gates?.double || 500;
 
     // Calculate gates from markers
     const singleGates = formData.gateMarkers?.filter(g => g.type === 'single').length || 0;
