@@ -60,6 +60,7 @@ export async function GET() {
             pricing = await prisma.pricing.create({
                 data: {
                     name: 'default',
+                    organizationId: 1,
                     fences: DEFAULT_PRICING.fences,
                     gates: DEFAULT_PRICING.gates,
                     // We might need to add 'options' to the schema if strict, but JSON field allows flexible data
@@ -97,6 +98,7 @@ export async function POST(request: Request) {
             },
             create: {
                 name: 'default',
+                organizationId: 1,
                 fences: body.fences,
                 gates: body.gates
             }
