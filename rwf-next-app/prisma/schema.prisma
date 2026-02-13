@@ -10,9 +10,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+
 model Pricing {
   id             Int          @id @default(autoincrement())
-  organizationId Int          @default(1)
+  organizationId String
   organization   Organization @relation(fields: [organizationId], references: [id])
   name           String       @unique // e.g. "default"
   fences         Json         // Stores { "Wood": 25, "Vinyl": 35, ... }
@@ -21,7 +22,7 @@ model Pricing {
 }
 
 model Organization {
-  id       Int       @id @default(autoincrement())
+  id       String    @id @default(cuid())
   name     String    @default("My Organization")
   pricing  Pricing[]
 }
